@@ -1,0 +1,6 @@
+ 
+     IOTXP:** HLR Layered Architecture, Device Configuration Register Address, Change ; 
+
+     HEDCC:DCRADD=49101923103        ;
+     HEDCC:DCRADD=49101923104        ;
+     HEDCC:DCRADD=49101923104 ,M2M   ;

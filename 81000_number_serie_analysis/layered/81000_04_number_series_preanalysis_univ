@@ -1,0 +1,12 @@
+
+     IOTXP:** HLR Layered Architecture, Number Series Pre-Analysis, Initiate *; 
+                                                    
+!UNIV;
+     	HEPAI:USRF=R99AUC      ,NAPI=2     ,NAI=4     ,ONSA=6    ;     
+			hepai:usrf=sdai,napi=1,nai=4,onsa=2;
+
+			HEPAI:USRF=PLMNID,NAPI=1,NAI=4,ONSA=9;
+					!FOR simu bat PRUSSD feature !
+			HEPAI:USRF=USSDPC, NAPI=0,NAI=0,ONSA=5;
+			HEPAI:USRF=ENAP1PC, NAPI=0,NAI=0,ONSA=4;
+			HEPAI:USRF=CID,NAPI=1,NAI=4,ONSA=8;     

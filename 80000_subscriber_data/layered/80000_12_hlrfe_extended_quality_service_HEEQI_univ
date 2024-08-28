@@ -1,0 +1,89 @@
+IOTXP:-----------------------------------------;
+IOTXP:EXTENDED QUALITY OF SERVICE DATA         ;
+IOTXP:-----------------------------------------;
+
+IOTXP:-----------------------------------------;
+IOTXP:CONVERSATIONAL TRAFFIC CLASS             ;
+IOTXP:-----------------------------------------;
+
+IOTXP:** CONVERSATIONAL TRAFFIC CLASS ***********************************;
+
+!HEEQI:EQOSID=0000,CON,TD=100, GBRU=1024,GBRD=1024,ARP=1,DO=YES,SDU=NDE-150-1-1,MBRU=1024,MBRD=1024; !1130!
+HEEQI:EQOSID=0001,CON,TD=200, GBRU= 512,GBRD= 512,ARP=2,DO=NO, SDU=YES-100-2-2,MBRU= 512,MBRD= 512; !2130!
+HEEQI:EQOSID=0002,CON,TD=1000,GBRU= 256,GBRD= 256,ARP=3,DO=YES,SDU=NO-50-3-3,  MBRU= 256,MBRD= 256; !3130!
+HEEQI:EQOSID=0003,CON,TD=4000,GBRU=2048,GBRD=2048,ARP=1,DO=NO, SDU=NDE-150-8-5,MBRU=2048,MBRD=2048; !1137!
+
+!------------------------------------------------------------------------!
+
+
+IOTXP:-----------------------------------------;
+IOTXP:STREAMING TRAFFIC CLASS                  ;
+IOTXP:-----------------------------------------;
+
+IOTXP:** STREAMING TRAFFIC CLASS ****************************************;
+
+HEEQI:EQOSID=1000,STR,TD=300, GBRU= 128,GBRD= 128,ARP=1,DO=NO, SDU=NDE-150-5-4,MBRU= 128,MBRD= 128; !4130!
+HEEQI:EQOSID=1001,STR,TD=950, GBRU=  64,GBRD=  64,ARP=2,DO=YES,SDU=YES-100-6-5,MBRU=  64,MBRD=  64; !5130!
+HEEQI:EQOSID=1002,STR,TD=4000,                    ARP=3,DO=NO, SDU=NO-50-7-7,  MBRU=   8,MBRD=   8; !6130!
+HEEQI:EQOSID=1003,STR,TD=300, GBRU=2048,GBRD=2048,ARP=3,DO=YES,SDU=NDE-50-8-7, MBRU=2048,MBRD=2048; !1143!
+
+
+IOTXP:-----------------------------------------;
+IOTXP:INTERACTIVE TRAFFIC CLASS                ;
+IOTXP:-----------------------------------------;
+
+IOTXP:** INTERACTIVE TRAFFIC CLASS **************************************;
+
+HEEQI:EQOSID=2000,INT,THP=2,                      ARP=1,DO=YES,SDU=NO-150-7-6, MBRU=2048,MBRD=2048; !0130!
+HEEQI:EQOSID=2001,INT,THP=2,                      ARP=1,DO=YES,SDU=NO-150-7-4, MBRU=  16,MBRD=  16; !2133!
+HEEQI:EQOSID=2002,INT,THP=3,                      ARP=1,DO=YES,SDU=NO-150-7-6, MBRU=  16,MBRD=  16; !1134!
+HEEQI:EQOSID=2003,INT,THP=2,                      ARP=3,DO=YES,SDU=NO-150-7-6, MBRU=  64,MBRD=  64; !2134!
+HEEQI:EQOSID=2004,INT,THP=3,                      ARP=1,DO=YES,SDU=NO-150-7-4, MBRU= 128,MBRD= 128; !3139!
+HEEQI:EQOSID=2005,INT,THP=2,                      ARP=3,DO=YES,SDU=NO-150-7-3, MBRU=  32,MBRD=  32; !4139!
+HEEQI:EQOSID=2006,INT,THP=1,                      ARP=2,DO=YES,SDU=YES-150-4-3,MBRU=   8,MBRD=   8; !5139!
+HEEQI:EQOSID=2007,INT,THP=3,                      ARP=3,DO=YES,SDU=NO-150-7-3, MBRU=2048,MBRD=2048; !1141!
+                                                                                                    !OP1 !
+
+HEEQI:EQOSID=2008,INT,THP=3,                      ARP=1,DO=YES,SDU=NO-150-7-6, MBRU= 256,MBRD= 256; !2141!
+                                                                                                    !OP2 !
+                                                                                                    !OP4 !
+                                                                                                    !4141!
+
+HEEQI:EQOSID=2009,INT,THP=3,                      ARP=1,DO=YES,SDU=NO-150-7-4, MBRU=1024,MBRD=1024; !3141!
+                                                                                                    !OP3 !
+HEEQI:EQOSID=2011,INT,THP=1,                      ARP=2,DO=YES,SDU=NO-150-7-6, MBRU=   8,MBRD=   8; !1144!
+HEEQI:EQOSID=2012,INT,THP=2,                      ARP=3,DO=YES,SDU=NO-150-7-6, MBRU=1024,MBRD=1024; !2144!
+HEEQI:EQOSID=2013,INT,THP=3,                      ARP=1,DO=YES,SDU=NO-150-7-3, MBRU=2048,MBRD=2048; !3144!
+HEEQI:EQOSID=2014,INT,THP=3,                      ARP=3,DO=YES,SDU=YES-150-4-3,MBRU=2048,MBRD=2048; !5144!
+
+HEEQI:EQOSID=2015,INT,THP=3,                      ARP=3,DO=NO, SDU=YES-50-9-3, MBRU=  16,MBRD=  16; !7130!
+HEEQI:EQOSID=2016,INT,THP=1,                      ARP=1,DO=YES,SDU=YES-150-4-3,MBRU=  32,MBRD=  32; !1102!
+                                                                                                    !1110!
+
+
+IOTXP:-----------------------------------------;
+IOTXP:BACKGROUND TRAFFIC CLASS                 ;
+IOTXP:-----------------------------------------;
+
+IOTXP:** BACKGROUND TRAFFIC CLASS ***************************************;
+
+HEEQI:EQOSID=3000,BACK,                           ARP=2,DO=YES,SDU=YES-150-4-3,MBRU=1024,MBRD=1024; !1133!
+HEEQI:EQOSID=3001,BACK,                           ARP=2,DO=YES,SDU=YES-150-4-3,MBRU= 128,MBRD= 128; !3134!
+HEEQI:EQOSID=3002,BACK,                           ARP=2,DO=YES,SDU=NO-150-7-6, MBRU=2048,MBRD=2048; !1139!
+HEEQI:EQOSID=3003,BACK,                           ARP=2,DO=YES,SDU=NO-150-7-6, MBRU= 512,MBRD= 512; !2139!
+HEEQI:EQOSID=3004,BACK,                           ARP=2,DO=YES,SDU=NO-150-7-4, MBRU= 128,MBRD= 128; !4144!
+
+HEEQI:EQOSID=3005,BACK,                           ARP=2,DO=YES,SDU=NO-150-4-4, MBRU=   8,MBRD=   8; !8130!
+HEEQI:EQOSID=3006,BACK,                           ARP=2,DO=YES,SDU=NDE-150-7-4,MBRU=  32,MBRD=  32; !9130!
+
+IOTXP:**STREAMING TRAFFIC CLASS , HSDPA *********************************;
+
+HEEQI:EQOSID=1004,STR,TD=300, GBRU=128, GBRD=16000,ARP=2,DO=NO, SDU=NDE-20-8-7,MBRU=128, MBRD=16000;
+HEEQI:EQOSID=1005,STR,TD=4000,                     ARP=3,DO=NO, SDU=NO-50-7-7, MBRU=   0,MBRD=16000;
+HEEQI:EQOSID=1006,STR,TD=300, GBRU=2048,GBRD=16000,ARP=3,DO=YES,SDU=NDE-50-8-7,MBRU=2048,MBRD=16000; 
+
+!------------------------------------------------------------------------!
+
+
+IOTXP:END OF FILE;
+

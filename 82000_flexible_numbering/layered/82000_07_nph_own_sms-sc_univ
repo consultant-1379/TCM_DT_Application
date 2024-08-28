@@ -1,0 +1,28 @@
+
+IOTXP:-----------------------------------------;
+IOTXP: NUMBER TRANSLATIONS                     ;
+IOTXP:-----------------------------------------;
+
+IOTXP:-----------------------------------------;
+IOTXP: NUMBER TRANSLATIONS FOR MNP             ;
+IOTXP: OWN SMS-SC ADDRESSES                    ;
+IOTXP:-----------------------------------------;
+
+!UNIV;
+!<-FWDSM-message->! 
+NHNTI:MSISDN=49701925202;
+NHNTI:MSISDN=49701925203;  !for simu in second blade!
+NHNTI:MSISDN=49701925204;  !for simu in third blade!
+NHNTI:MSISDN=49701925205;  !for simu in 4th blade!
+NHNTI:MSISDN=49701925206;  !for simu in 5th blade!
+NHNTI:MSISDN=49701925207;  !for simu in 6th blade!
+NHNTI:MSISDN=49701925208;  !for simu in 7th blade!
+NHNTI:MSISDN=49701925209;  !for simu in 8th blade!
+NHNTI:MSISDN=49701925210;  !for simu in 9th blade!
+NHNTI:MSISDN=49701925211;  !for simu in 10th blade!
+NHNTI:MSISDN=49701925212;  !for simu in 11th blade!
+NHNTI:MSISDN=49701925213;  !for simu in 12th blade!
+NHNTI:MSISDN=49701925214;  !for simu in 13th blade!
+NHNTI:MSISDN=49701925215;  !for simu in 14th blade!
+
+IOTXP:END OF FILE;  

@@ -1,0 +1,16 @@
+IOTXP:-----------------------------------------;
+IOTXP: OWN NETWORK PREFIX                      ;
+IOTXP:-----------------------------------------;
+
+NHOPC:ONPREFIX=3692  ,COND=GSM;
+NHOPC:ONPREFIX=4489  ,COND=PSTN;
+
+IOTXP:END OF FILE; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

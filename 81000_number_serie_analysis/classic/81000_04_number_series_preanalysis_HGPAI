@@ -1,0 +1,13 @@
+
+!*****  Number Series Pre-Analysis  *****                                                                               !
+HGPAI:USRF=RSAI     ,NAPI=1 ,NAI=4   ,ONSA= 1  ;
+HGPAI:USRF=SDAI     ,NAPI=1 ,NAI=4   ,ONSA= 2  ;
+HGPAI:USRF=USSDPC   ,NAPI=0 ,NAI=0   ,ONSA= 5  ;
+HGPAI:USRF=USSDSC   ,NAPI=0 ,NAI=0   ,ONSA= 7  ;
+HGPAI:USRF=ENAP3SC  ,NAPI=0 ,NAI=0   ,ONSA=13  ;
+HGPAI:USRF=ENAP1PC  ,NAPI=0 ,NAI=0   ,ONSA=11  ;
+HGPAI:USRF=HPID     ,NAPI=1 ,NAI=3   ,ONSA= 3  ;
+HGPAI:USRF=PLMNID   ,NAPI=1 ,NAI=4   ,ONSA= 9  ;
+HGPAI:USRF=R99AUC   ,NAPI=2 ,NAI=4   ,ONSA= 6  ;
+HGPAI:USRF=RAID     ,NAPI=1 ,NAI=4   ,ONSA=10  ;  
+HGPAI:USRF=SPAMSM   ,NAPI=1 ,NAI=4   ,ONSA=17  ;  

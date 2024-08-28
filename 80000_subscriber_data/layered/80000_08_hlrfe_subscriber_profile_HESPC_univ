@@ -1,0 +1,650 @@
+!UNIV;
+IOTXP:** PROFILE FOR CHARACTERISTICS SERIES     ************************;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=100,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=100,SUD=BAOC-1&BOIC-1;
+HESPC:PROFILE=100,SUD=BS21-1;
+HESPC:PROFILE=100,SUD=OICK-1&OIN-1;
+HESPC:PROFILE=100,SUD=SOCB-1;
+HESPC:PROFILE=100,SUD=NAM-0;     !Changed in R13.0 from 1 to 0!
+HESPC:PROFILE=100,SUD=CFNRC-1;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=101,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=101,SUD=BAOC-1&BOIC-1;
+HESPC:PROFILE=101,SUD=OICK-1&OIN-1&TICK-1&TIN-1;
+HESPC:PROFILE=101,SUD=SOCB-1;
+HESPC:PROFILE=101,SUD=NAM-0;     !Changed in R13.0 from 1 to 0!
+!HESPC:PROFILE=101,SUD=CFNRC-1;  !Removed in R13.0!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=102,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=102,SUD=BAOC-1&BOIC-1;
+HESPC:PROFILE=102,SUD=OICK-1&OIN-1;
+HESPC:PROFILE=102,SUD=NAM-0;     !Changed in R13.0 from 1 to 0!
+!HESPC:PROFILE=102,SUD=PAI-1;     !New in R13.0!
+!HESPC:PROFILE=102,SUD=CFNRC-1;  !Removed in R13.0!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=103,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=103,SUD=BAOC-1&BOIC-1;
+HESPC:PROFILE=103,SUD=CFU-1&SOCB-1;
+HESPC:PROFILE=103,SUD=OICK-1&OIN-1;
+HESPC:PROFILE=103,SUD=NAM-0;     !Changed in R13.0 from 1 to 0!
+!HESPC:PROFILE=103,SUD=CFNRC-1;  !Removed in R13.0!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=104,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=104,SUD=BAOC-1&BOIC-1;
+HESPC:PROFILE=104,SUD=OICK-1&OIN-1&CFNRY-1;
+HESPC:PROFILE=104,SUD=NAM-0;     !Changed in R13.0 from 1 to 0!
+!HESPC:PROFILE=104,SUD=CFNRC-1;  !Removed in R13.0!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=105,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=105,SUD=CFNRC-1&BAOC-1&BOIC-1;
+HESPC:PROFILE=105,SUD=OICK-1&OIN-1&CFB-1;
+HESPC:PROFILE=105,SUD=BS31-1;
+HESPC:PROFILE=105,SUD=NAM-0;     !Changed in R13.0 from 1 to 0!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=106,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=106,SUD=CFNRC-1&BAOC-1&BOIC-1;
+HESPC:PROFILE=106,SUD=OICK-1&OIN-1;
+HESPC:PROFILE=106,SUD=TS61-1;
+HESPC:PROFILE=106,SUD=TICK-1&TIN-1;
+HESPC:PROFILE=106,SUD=NAM-1;
+!HESPC:PROFILE=106,SUD=CFNRC-1;  !Removed in R13.0!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=107,SUD=TS21-1&TS22-1;
+HESPC:PROFILE=107,SUD=NAM-0;            !Changed in R13.0 from 2 to 0!
+HESPC:PROFILE=107,SUD=OICK-1&OIN-1;     !New in R13.0!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=108,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=108,SUD=BAOC-1&BOIC-1;
+HESPC:PROFILE=108,SUD=OICK-1&OIN-1;
+HESPC:PROFILE=108,SUD=TICK-1&TIN-1;
+HESPC:PROFILE=108,SUD=NAM-0;     !Changed in R13.0 from 1 to 0!
+!HESPC:PROFILE=108,SUD=CFNRC-1;  !Removed in R13.0!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=109,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=109,SUD=BAOC-1&BOIC-1;
+HESPC:PROFILE=109,SUD=OICK-1&OIN-1;
+HESPC:PROFILE=109,SUD=NAM-0;
+!HESPC:PROFILE=109,SUD=CFNRC-1;  !Removed in R13.0!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=110,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=110,SUD=BAOC-1&BOIC-1;
+HESPC:PROFILE=110,SUD=NAM-0;
+HESPC:PROFILE=110,SUD=OICK-1&OIN-1;
+!HESPC:PROFILE=110,SUD=CFNRC-1;  !Removed in R13.0!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=111,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=111,SUD=CFNRC-1;
+HESPC:PROFILE=111,SUD=BAOC-1&BOIC-1;
+HESPC:PROFILE=111,SUD=BS21-1;
+HESPC:PROFILE=111,SUD=OICK-1&OIN-1;
+HESPC:PROFILE=111,SUD=SOCB-1;
+HESPC:PROFILE=111,SUD=NAM-1;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=112,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=112,SUD=CFNRC-1;
+HESPC:PROFILE=112,SUD=BAOC-1&BOIC-1;
+HESPC:PROFILE=112,SUD=BS21-1;
+HESPC:PROFILE=112,SUD=OICK-1&OIN-1;
+HESPC:PROFILE=112,SUD=SOCB-1;
+HESPC:PROFILE=112,SUD=NAM-1;
+!------------------------------------------------------------------------!
+IOTXP:** PROFILE FOR ROBUTNESS SERIES MGTS I2000  **********************;
+
+!------------------------------------------------------------------------!
+HESPC:PROFILE=230,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=230,SUD=CFNRY-1;
+HESPC:PROFILE=230,SUD=BAOC-1&AOC-1&OBZI-1&ACC-1;
+HESPC:PROFILE=230,SUD=SCHAR-1;
+HESPC:PROFILE=230,SUD=NAM-2;
+HESPC:PROFILE=230,SUD=BS31-1;
+HESPC:PROFILE=230,SUD=BS3G-1;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=231,SUD=TS11-1&TS21-1&SOCB-1;
+HESPC:PROFILE=231,SUD=CFNRC-1&CFNRY-1;
+HESPC:PROFILE=231,SUD=BOIC-1;
+HESPC:PROFILE=231,SUD=AOC-1&ACC-1;
+!HESPC:PROFILE=231,SUD=PAI-1;
+HESPC:PROFILE=231,SUD=NAM-0;
+HESPC:PROFILE=231,SUD=BS2G-1;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=232,SUD=TS11-1&TS21-1;
+HESPC:PROFILE=232,SUD=CFNRY-1&CFU-1;
+HESPC:PROFILE=232,SUD=AOC-2&BAOC-1;
+!HESPC:PROFILE=232,SUD=HPN-1;
+HESPC:PROFILE=232,SUD=OBRF-1;
+HESPC:PROFILE=232,SUD=EMLPP-1&DEMLPP-4&MEMLPP-4;
+HESPC:PROFILE=232,SUD=NAM-1;
+HESPC:PROFILE=232,SUD=BS3G-1;
+HESPC:PROFILE=232,SUD=NAM-0;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=233,SUD=TS11-1&TS21-1&TS61-1;
+HESPC:PROFILE=233,SUD=BS2G-1;
+HESPC:PROFILE=233,SUD=CFNRY-1&CFNRC-1;
+HESPC:PROFILE=233,SUD=AOC-1&BAOC-1;
+HESPC:PROFILE=233,SUD=OBZI-1&BOIC-1; 
+HESPC:PROFILE=233,SUD=SCHAR-15;
+HESPC:PROFILE=233,SUD=NAM-0;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=234,SUD=TS11-1&TS21-1;
+HESPC:PROFILE=234,SUD=CFNRY-1&CFB-1;
+HESPC:PROFILE=234,SUD=AOC-1&BAOC-1;
+HESPC:PROFILE=234,SUD=OBZO-1&OBI-2&ACC-1;                     
+HESPC:PROFILE=234,SUD=NAM-0;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=235,SUD=TS11-1&TS21-1&CFU-1&AOC-1&BAOC-1;
+HESPC:PROFILE=235,SUD=OICK-1&TICK-1;
+HESPC:PROFILE=235,SUD=NAM-1;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=236,SUD=TS11-1&TS21-1&TS61-1&CFNRY-1&AOC-1&BAOC-1;
+HESPC:PROFILE=236,SUD=CAW-1&STYPE-12;
+HESPC:PROFILE=236,SUD=ICI-1;
+!HESPC:PROFILE=236,SUD=HPN-1;
+HESPC:PROFILE=236,SUD=BS2G-1&BS2F-2;
+HESPC:PROFILE=236,SUD=NAM-1;                            
+!------------------------------------------------------------------------!
+HESPC:PROFILE=237,SUD=TS11-1&TS21-1;
+HESPC:PROFILE=237,SUD=CFNRC-1&AOC-1&BAOC-1;
+HESPC:PROFILE=237,SUD=BS2G-1&BS2F-1; 
+HESPC:PROFILE=237,SUD=NAM-0;                  
+!------------------------------------------------------------------------!
+HESPC:PROFILE=238,SUD=TS11-1&TS21-1;
+HESPC:PROFILE=238,SUD=BS21-1&BS22-1&BS24-1&BS25-1;
+HESPC:PROFILE=238,SUD=CFNRY-1&CFNRC-1&CFB-1&CFU-1;
+HESPC:PROFILE=238,SUD=AOC-1&BAOC-1;
+HESPC:PROFILE=238,SUD=EMLPP-1&DEMLPP-2&MEMLPP-5;
+HESPC:PROFILE=238,SUD=NAM-1;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=239,SUD=TS11-1&TS21-1&BS3G-1&BS3F-1;
+HESPC:PROFILE=239,SUD=CFU-1&CFNRC-1;
+HESPC:PROFILE=239,SUD=AOC-2&BAOC-1;
+HESPC:PROFILE=239,SUD=OBZO-1;
+!HESPC:PROFILE=239,SUD=HPN-2;
+HESPC:PROFILE=239,SUD=OBO-3;
+HESPC:PROFILE=239,SUD=NAM-0;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=240,SUD=TS11-1&TS21-1&SOCB-1&CFNRY-1&BAIC-1;
+HESPC:PROFILE=240,SUD=AOC-1&ACC-1&CFU-1;              
+HESPC:PROFILE=240,SUD=NAM-1;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=241,SUD=TS11-1&TS21-1&TS22-1&SOCB-1;
+HESPC:PROFILE=241,SUD=CFNRY-1&CFNRC-1&CFB-1&BAOC-1;
+HESPC:PROFILE=241,SUD=BICRO-1&AOC-2&BS3G-1;
+!HESPC:PROFILE=241,SUD=PAI-1;
+HESPC:PROFILE=241,SUD=NAM-0;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=242,SUD=TS11-1&TS21-1&BS21-1&CFNRY-1&CAW-1&BAOC-1;
+HESPC:PROFILE=242,SUD=AOC-1&CFU-1;
+!HESPC:PROFILE=242,SUD=HPN-1;
+HESPC:PROFILE=242,SUD=NAM-1;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=243,SUD=TS11-1&TS21-1&TS22-1&CFNRC-1&BAOC-1&AOC-1;
+HESPC:PROFILE=243,SUD=EMLPP-1&DEMLPP-0&MEMLPP-0;
+HESPC:PROFILE=243,SUD=NAM-0;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=244,SUD=TS11-1&TS21-1&TS22-1&CFNRY-1;
+HESPC:PROFILE=244,SUD=CFNRC-1&CFB-1&BAIC-1&AOC-1;
+HESPC:PROFILE=244,SUD=NAM-0;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=245,SUD=TS21-1&OBO-1&OBI-1&BAOC-1&BAIC-1;
+!------------------------------------------------------------------------!
+
+IOTXP:** PROFILE FOR ROBUTNESS SERIES MGTS I3000  **********************;
+
+!------------------------------------------------------------------------!
+HESPC:PROFILE=130,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=130,SUD=CFNRY-1;
+HESPC:PROFILE=130,SUD=BAOC-1&AOC-1&OBZI-1&ACC-1;
+HESPC:PROFILE=130,SUD=SCHAR-1;
+HESPC:PROFILE=130,SUD=NAM-2;
+HESPC:PROFILE=130,SUD=BS31-1;
+HESPC:PROFILE=130,SUD=BS3G-1;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=131,SUD=TS11-1&TS21-1&SOCB-1;
+HESPC:PROFILE=131,SUD=CFNRC-1&CFNRY-1;
+HESPC:PROFILE=131,SUD=BOIC-1;
+HESPC:PROFILE=131,SUD=AOC-1&ACC-1;
+!HESPC:PROFILE=131,SUD=PAI-1;
+HESPC:PROFILE=131,SUD=BS2G-1;
+HESPC:PROFILE=131,SUD=NAM-0;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=132,SUD=TS11-1&TS21-1;
+HESPC:PROFILE=132,SUD=CFNRY-1&CFU-1;
+HESPC:PROFILE=132,SUD=AOC-2&BAOC-1;
+!HESPC:PROFILE=132,SUD=HPN-1;
+HESPC:PROFILE=132,SUD=OBRF-1;
+HESPC:PROFILE=132,SUD=EMLPP-1&DEMLPP-4&MEMLPP-4;
+HESPC:PROFILE=132,SUD=BS2G-1;
+HESPC:PROFILE=132,SUD=NAM-0;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=133,SUD=TS11-1&TS21-1&TS61-1;
+HESPC:PROFILE=133,SUD=BS2G-1;
+HESPC:PROFILE=133,SUD=CFNRY-1&CFNRC-1;
+HESPC:PROFILE=133,SUD=AOC-1&BAOC-1;
+HESPC:PROFILE=133,SUD=OBZI-1&BOIC-1; 
+HESPC:PROFILE=133,SUD=SCHAR-15;
+HESPC:PROFILE=133,SUD=NAM-0;
+HESPC:PROFILE=133,SUD=CLIP-1;    !R12 CN5.0!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=134,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=134,SUD=NAM-0;
+HESPC:PROFILE=134,SUD=BAOC-1&BOIC-1;
+HESPC:PROFILE=134,SUD=AOC-1&OICK-1&OIN-1;
+HESPC:PROFILE=134,SUD=TICK-1&TIN-1;
+HESPC:PROFILE=134,SUD=SOCB-1&BS31-1;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=135,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=135,SUD=CFNRC-1;
+HESPC:PROFILE=135,SUD=BAOC-1&BOIC-1&AOC-1;
+HESPC:PROFILE=135,SUD=TS61-1;
+HESPC:PROFILE=135,SUD=NAM-0;
+HESPC:PROFILE=135,SUD=OICK-1&OIN-1;
+HESPC:PROFILE=135,SUD=SOCB-1;
+HESPC:PROFILE=135,SUD=CLIP-1&SOCLIP-1;    !R12 CN5.0!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=136,SUD=NAM-0;
+HESPC:PROFILE=136,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=136,SUD=CFU-1;
+HESPC:PROFILE=136,SUD=CFNRC-1;
+HESPC:PROFILE=136,SUD=BAOC-1;
+HESPC:PROFILE=136,SUD=BOIC-1;
+HESPC:PROFILE=136,SUD=AOC-1;
+HESPC:PROFILE=136,SUD=OICK-1&OIN-1;
+HESPC:PROFILE=136,SUD=SCHAR-1-123;
+HESPC:PROFILE=136,SUD=OBP-1;
+HESPC:PROFILE=136,SUD=RSA-1;
+HESPC:PROFILE=136,SUD=ECT-1;
+HESPC:PROFILE=136,SUD=OBDCT-1;
+HESPC:PROFILE=136,SUD=OBCT-2;
+HESPC:PROFILE=136,SUD=CLIP-1;    !R12 CN5.0!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=137,SUD=NAM-0;
+HESPC:PROFILE=137,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=137,SUD=CFU-1&CFNRC-1&CFNRY-1;
+HESPC:PROFILE=137,SUD=BAOC-1&BOIC-1&AOC-1;
+HESPC:PROFILE=137,SUD=OICK-1&OIN-1;
+HESPC:PROFILE=137,SUD=SCHAR-1-123;
+HESPC:PROFILE=137,SUD=RSA-1;
+HESPC:PROFILE=137,SUD=OBCT-3&OBMCT-1;
+HESPC:PROFILE=137,SUD=ECT-1;
+
+!------------------------------------------------------------------------!
+HESPC:PROFILE=138,SUD=CAT-10;
+HESPC:PROFILE=138,SUD=DBSG-1;
+HESPC:PROFILE=138,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=138,SUD=NAM-0;
+HESPC:PROFILE=138,SUD=CFNRC-1;
+HESPC:PROFILE=138,SUD=OICK-1&OIN-1;
+HESPC:PROFILE=138,SUD=RSA-3;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=139,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=139,SUD=NAM-0;
+HESPC:PROFILE=139,SUD=CFNRC-1;
+HESPC:PROFILE=139,SUD=BAOC-1&BOIC-1;
+HESPC:PROFILE=139,SUD=AOC-1&OICK-1&OIN-1;
+HESPC:PROFILE=139,SUD=OBP-1;
+HESPC:PROFILE=139,SUD=SCHAR-1-123;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=140,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=140,SUD=CFNRC-1&CFU-1;
+HESPC:PROFILE=140,SUD=BAOC-1&BOIC-1&AOC-1;
+HESPC:PROFILE=140,SUD=OICK-1&OIN-1;
+HESPC:PROFILE=140,SUD=TIN-1&TICK-1;
+HESPC:PROFILE=140,SUD=BS3G-1;
+HESPC:PROFILE=140,SUD=NAM-0;
+
+!------------------------------------------------------------------------!
+HESPC:PROFILE=141,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=141,SUD=NAM-0;
+HESPC:PROFILE=141,SUD=CFNRC-1&CFB-1;
+HESPC:PROFILE=141,SUD=BAOC-1&BOIC-1&AOC-1;
+HESPC:PROFILE=141,SUD=OICK-1&OIN-1;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=142,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=142,SUD=NAM-0;
+HESPC:PROFILE=142,SUD=BAOC-1&BOIC-1;
+HESPC:PROFILE=142,SUD=AOC-1&OICK-1&OIN-1;
+HESPC:PROFILE=142,SUD=TICK-1&TIN-1;
+HESPC:PROFILE=142,SUD=SOCB-1&BS31-1;
+HESPC:PROFILE=142,SUD=RSA-99;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=143,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=143,SUD=NAM-0;
+HESPC:PROFILE=143,SUD=BAOC-1&BOIC-1;
+HESPC:PROFILE=143,SUD=AOC-1&OICK-1&OIN-1;
+HESPC:PROFILE=143,SUD=TICK-1&TIN-1;
+HESPC:PROFILE=143,SUD=SOCB-1&BS31-1;
+HESPC:PROFILE=143,SUD=RSA-100;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=144,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=144,SUD=NAM-0;
+HESPC:PROFILE=144,SUD=BAOC-1&BOIC-1;
+HESPC:PROFILE=144,SUD=AOC-1&OICK-1&OIN-1;
+HESPC:PROFILE=144,SUD=TICK-1&TIN-1;
+HESPC:PROFILE=144,SUD=SOCB-1&BS31-1;
+HESPC:PROFILE=144,SUD=RSA-110;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=145,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=145,SUD=CFNRC-1;
+HESPC:PROFILE=145,SUD=BAOC-1&BOIC-1&AOC-1;
+HESPC:PROFILE=145,SUD=TS61-1;
+HESPC:PROFILE=145,SUD=NAM-0;
+HESPC:PROFILE=145,SUD=OICK-1&OIN-1;
+HESPC:PROFILE=145,SUD=SOCB-1;
+HESPC:PROFILE=145,SUD=RSA-128;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=146,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=146,SUD=BS21-1;
+HESPC:PROFILE=146,SUD=NAM-0;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=147,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=147,SUD=BS21-1;
+HESPC:PROFILE=147,SUD=NAM-0;
+!------------------------------------------------------------------------!
+IOTXP:** PROFILE FOR ROBUSTNESS SERIES     ************************;
+
+HESPC:PROFILE=150,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=150,SUD=CFNRC-1;
+HESPC:PROFILE=150,SUD=BAOC-1&BOIC-1&AOC-1;
+HESPC:PROFILE=150,SUD=TS61-1;
+HESPC:PROFILE=150,SUD=NAM-0;
+HESPC:PROFILE=150,SUD=OICK-1&OIN-1;
+HESPC:PROFILE=150,SUD=SOCB-1;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=151,SUD=TS11-1&TS21-1&TS22-1;
+HESPC:PROFILE=151,SUD=CFU-1&CFNRC-1;
+HESPC:PROFILE=151,SUD=BAOC-1&BOIC-1&AOC-1;
+HESPC:PROFILE=151,SUD=BS21-1;
+HESPC:PROFILE=151,SUD=OICK-1&OIN-1;
+HESPC:PROFILE=151,SUD=SOCB-1;
+!HESPC:PROFILE=151,SUD=PAI-1;
+HESPC:PROFILE=151,SUD=NAM-0;
+HESPC:PROFILE=151,SUD=SCHAR-1-123;
+HESPC:PROFILE=151,SUD=OBP-1;
+HESPC:PROFILE=151,SUD=RSA-1;
+HESPC:PROFILE=151,SUD=ECT-1;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=152,SUD=TS11-1&TS21-1&SOCB-1&CFNRY-1&BAIC-1;
+HESPC:PROFILE=152,SUD=AOC-1&ACC-1&CFU-1;              
+HESPC:PROFILE=152,SUD=NAM-1;
+!------------------------------------------------------------------------!
+HESPC:PROFILE=153,SUD=TS11-1&TS21-1;
+HESPC:PROFILE=153,SUD=CFNRY-1&CFU-1;
+HESPC:PROFILE=153,SUD=AOC-2&BAOC-1;
+!HESPC:PROFILE=153,SUD=HPN-1;
+HESPC:PROFILE=153,SUD=OBRF-0;
+HESPC:PROFILE=153,SUD=EMLPP-1&DEMLPP-4&MEMLPP-4;
+HESPC:PROFILE=153,SUD=NAM-1;
+HESPC:PROFILE=153,SUD=BS3G-1;
+HESPC:PROFILE=153,SUD=NAM-0;
+!------------------------------------------------------------------------!
+
+IOTXP:** SA-HLR DEFAULT PROFILE *****************************************;
+
+!------------------------------------------------------------------------!
+HESPC:PROFILE=200,SUD=CAT-10&DBSG-1&SODCF-0&SOSDCF-7;
+HESPC:PROFILE=200,SUD=TS11-1&TS21-1&AOC-1&BOIC-1&CFNRC-1;
+
+!------------------------------------------------------------------------!
+IOTXP:***_END_OF_SUBFILE_79000 ******************************************;
+
+IOTXP:79000 file Rev PA2 09-07-2004 ** GSM R11/WCDMA R4 CN4.0 ********;
+
+
+
+IOTXP:** SUBSCRIBER PROFILE DATA *************************************;
+
+IOTXP:** PROFILE FOR CHARACTERISTICS SERIES     **********************;
+!---------------------------------------------------------------------!
+IOTXP:** PROFILE FOR ROBUTNESS SERIES MGTS I2000 *********************;
+!---------------------------------------------------------------------!
+IOTXP:** PROFILE FOR ROBUTNESS SERIES MGTS I3000 *********************;
+
+HESPC:PROFILE=132,SUD=PRBT-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=134,SUD=CSP-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=135,SUD=CSP-2;
+HESPC:PROFILE=135,SUD=IST-15;
+HESPC:PROFILE=135,SUD=ISTVSO-1&ISTGSO-1;
+HESPC:PROFILE=135,SUD=SOPLCS-1;
+HESPC:PROFILE=135,SUD=PRBT-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=136,SUD=IST-82;
+HESPC:PROFILE=136,SUD=ISTVSO-1&ISTGSO-1&ISTCSO-1;
+HESPC:PROFILE=136,SUD=SOPLCS-1;
+!---------------------------------------------------------------------!      
+HESPC:PROFILE=139,SUD=CSP-3;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=140,SUD=CSP-2;
+HESPC:PROFILE=140,SUD=IST-255;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=141,SUD=SOPLCS-1;   
+!---------------------------------------------------------------------!
+HESPC:PROFILE=143,SUD=CSP-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=145,SUD=CSP-2;
+
+IOTXP:** PROFILE FOR ROBUSTNESS SERIES          **********************;
+
+HESPC:PROFILE=150,SUD=SOPLCS-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=151,SUD=SOPLCS-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=152,SUD=SOPLCS-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=153,SUD=SOPLCS-1;
+!---------------------------------------------------------------------!
+
+IOTXP:***_END_OF_SUBFILE_79000 ****************************************;
+
+IOTXP:79000 file Rev PA1 10-01-2005 ** GSM R12/WCDMA R5 ***LSV37;
+
+IOTXP:** CAMEL SUBSCRIPTION PROFILE **********************************;
+
+
+
+IOTXP:** SUBSCRIBER PROFILE DATA *************************************;
+
+IOTXP:** PROFILE FOR CHARACTERISTICS SERIES     **********************;
+!---------------------------------------------------------------------!
+IOTXP:** PROFILE FOR ROBUTNESS SERIES MGTS I2000 *********************;
+!---------------------------------------------------------------------!
+IOTXP:** PROFILE FOR ROBUTNESS SERIES MGTS I3000 *********************;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=132,SUD=MCA-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=133,SUD=ACR-2;
+HESPC:PROFILE=133,SUD=RTCA-1;
+HESPC:PROFILE=133,SUD=SMSPAM-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=134,SUD=MCA-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=135,SUD=ACR-2;
+HESPC:PROFILE=135,SUD=RTCA-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=136,SUD=ACR-2;
+HESPC:PROFILE=136,SUD=SMSPAM-1;
+HESPC:PROFILE=136,SUD=MCA-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=137,SUD=ACR-1;
+HESPC:PROFILE=137,SUD=SMSPAM-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=139,SUD=RTCA-1;
+HESPC:PROFILE=139,SUD=MCA-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=140,SUD=ACR-2; 
+HESPC:PROFILE=140,SUD=RTCA-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=141,SUD=RTCA-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=143,SUD=RTCA-1;
+HESPC:PROFILE=143,SUD=MCA-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=144,SUD=SMSPAM-1;
+!---------------------------------------------------------------------!
+HESPC:PROFILE=145,SUD=MCA-1;
+!---------------------------------------------------------------------!
+IOTXP:***_END_OF_SUBFILE_79000 ****************************************;
+
+IOTXP:79000 file Rev PA1 14-02-2007 ** GSM R13/WCDMA R7 ********;
+IOTXP:** SUBSCRIBER PROFILE DATA ****************************************;
+
+IOTXP:** PROFILE FOR CHARACTERISTICS SERIES     ************************;
+
+IOTXP:** PROFILE FOR ROBUTNESS SERIES MGTS I3000  **********************;
+
+!HESPC:PROFILE=130,SUD=ESNP-1;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=131,SUD=ARD-1;
+!HESPC:PROFILE=131,SUD=ESNP-2;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=132,SUD=OBCC-1;
+!HESPC:PROFILE=132,SUD=ESNP-1;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=133,SUD=OBCC-1;
+!HESPC:PROFILE=133,SUD=ESNP-1;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+!HESPC:PROFILE=134,SUD=ESNP-1;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+!HESPC:PROFILE=135,SUD=ESNP-1;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=136,SUD=OBCC-1;
+!HESPC:PROFILE=136,SUD=ESNP-3;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=137,SUD=ARD-2;
+!HESPC:PROFILE=137,SUD=ESNP-1;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+!HESPC:PROFILE=138,SUD=ESNP-1;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=139,SUD=OBCC-1;
+!HESPC:PROFILE=139,SUD=ESNP-1;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=140,SUD=OBCC-1;
+!HESPC:PROFILE=140,SUD=ESNP-4;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+
+!HESPC:PROFILE=141,SUD=ESNP-1;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+!HESPC:PROFILE=142,SUD=ESNP-1;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+!HESPC:PROFILE=143,SUD=ESNP-1;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+!HESPC:PROFILE=144,SUD=ESNP-1;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+HESPC:PROFILE=145,SUD=ARD-1;
+
+!HESPC:PROFILE=145,SUD=ESNP-1;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+!HESPC:PROFILE=146,SUD=+RSIP;            !LSV21!
+!HESPC:PROFILE=146,SUD=ESNP-1;           !LDAP-LSV23!
+!------------------------------------------------------------------------!
+
+
+
+
+! ADDED IN R11B UNIV FOR TTCN PROFILES !
+
+HESPC:PROFILE=10,SUD=NAM-0;
+
+
+! ADDED IN R11B UNIV FOR TWO NEW PROFILES !
+HESPC:PROFILE=3,SUD=ARD-1;
+HESPC:PROFILE=3,SUD=PRBT-1;
+HESPC:PROFILE=3,SUD=STYPE-1;
+HESPC:PROFILE=3,SUD=CAT-5;
+HESPC:PROFILE=3,SUD=DBSG-1;
+HESPC:PROFILE=3,SUD=TS11-1;
+HESPC:PROFILE=3,SUD=TS21-1;
+HESPC:PROFILE=3,SUD=TS22-1;
+HESPC:PROFILE=3,SUD=AOC-1;
+HESPC:PROFILE=3,SUD=CAW-1;
+HESPC:PROFILE=3,SUD=HOLD-1;
+HESPC:PROFILE=3,SUD=MPTY-1;
+HESPC:PROFILE=3,SUD=TIN-1;
+HESPC:PROFILE=3,SUD=BAIC-1;
+HESPC:PROFILE=3,SUD=BAOC-1;
+HESPC:PROFILE=3,SUD=BICRO-1;
+HESPC:PROFILE=3,SUD=BOIC-1;
+HESPC:PROFILE=3,SUD=BOIEXH-1;
+HESPC:PROFILE=3,SUD=SOCB-1;
+HESPC:PROFILE=3,SUD=CFB-1;
+HESPC:PROFILE=3,SUD=SOCFB-1;
+HESPC:PROFILE=3,SUD=CFNRC-1;
+HESPC:PROFILE=3,SUD=SOCFRC-1;
+HESPC:PROFILE=3,SUD=CFNRY-1;
+HESPC:PROFILE=3,SUD=SOCFRY-1;
+HESPC:PROFILE=3,SUD=CFU-1;
+HESPC:PROFILE=3,SUD=SOCFU-1;
+HESPC:PROFILE=3,SUD=SODCF-1;
+HESPC:PROFILE=3,SUD=CLIP-1;
+HESPC:PROFILE=3,SUD=SOCLIP-1;
+HESPC:PROFILE=3,SUD=CLIR-1;
+HESPC:PROFILE=3,SUD=SOCLIR-1;
+HESPC:PROFILE=3,SUD=COLP-1;
+HESPC:PROFILE=3,SUD=SOCOLP-1;
+HESPC:PROFILE=3,SUD=COLR-1;
+HESPC:PROFILE=3,SUD=PDPCP-1;
+HESPC:PROFILE=3,SUD=RSA-1;
+HESPC:PROFILE=3,SUD=CSP-100;
+HESPC:PROFILE=3,SUD=OBO-3;
+
+
+HESPC:PROFILE=4,SUD=ARD-1;
+HESPC:PROFILE=4,SUD=PRBT-1;
+HESPC:PROFILE=4,SUD=STYPE-1;
+HESPC:PROFILE=4,SUD=CAT-5;
+HESPC:PROFILE=4,SUD=DBSG-1;
+HESPC:PROFILE=4,SUD=BS3G-1;
+HESPC:PROFILE=4,SUD=TS11-1;
+HESPC:PROFILE=4,SUD=TS21-1;
+HESPC:PROFILE=4,SUD=TS22-1;
+HESPC:PROFILE=4,SUD=TS61-1;
+HESPC:PROFILE=4,SUD=AOC-1;
+HESPC:PROFILE=4,SUD=CAW-1;
+HESPC:PROFILE=4,SUD=HOLD-1;
+HESPC:PROFILE=4,SUD=MPTY-1;
+HESPC:PROFILE=4,SUD=TICK-1;
+HESPC:PROFILE=4,SUD=OICK-1;
+HESPC:PROFILE=4,SUD=TIN-1;
+HESPC:PROFILE=4,SUD=BAIC-1;
+HESPC:PROFILE=4,SUD=BAOC-1;
+HESPC:PROFILE=4,SUD=BICRO-1;
+HESPC:PROFILE=4,SUD=BOIC-1;
+HESPC:PROFILE=4,SUD=BOIEXH-1;
+HESPC:PROFILE=4,SUD=SOCB-1;
+HESPC:PROFILE=4,SUD=CFB-1;
+HESPC:PROFILE=4,SUD=SOCFB-1;
+HESPC:PROFILE=4,SUD=CFNRC-1;
+HESPC:PROFILE=4,SUD=SOCFRC-1;
+HESPC:PROFILE=4,SUD=CFNRY-1;
+HESPC:PROFILE=4,SUD=SOCFRY-1;
+HESPC:PROFILE=4,SUD=CFU-1;
+HESPC:PROFILE=4,SUD=SOCFU-1;
+HESPC:PROFILE=4,SUD=SODCF-1;
+HESPC:PROFILE=4,SUD=CLIP-1;
+HESPC:PROFILE=4,SUD=SOCLIP-1;
+HESPC:PROFILE=4,SUD=CLIR-1;
+HESPC:PROFILE=4,SUD=SOCLIR-1;
+HESPC:PROFILE=4,SUD=COLP-1;
+HESPC:PROFILE=4,SUD=SOCOLP-1;
+HESPC:PROFILE=4,SUD=COLR-1;
+HESPC:PROFILE=4,SUD=CSP-101;
+HESPC:PROFILE=4,SUD=PDPCP-2;
+HESPC:PROFILE=4,SUD=RSA-1;
+HESPC:PROFILE=4,SUD=SOPLCS-1;
+HESPC:PROFILE=4,SUD=OBO-3;
+HESPC:PROFILE=4,SUD=IST-15;
+HESPC:PROFILE=4,SUD=ISTCSO-1;
+HESPC:PROFILE=4,SUD=ISTGSO-1;
+HESPC:PROFILE=4,SUD=ISTVSO-1;
+HESPC:PROFILE=4,SUD=EMLPP-1;
+HESPC:PROFILE=4,SUD=PICI-12;
+HESPC:PROFILE=4,SUD=PICI2-13;
+HESPC:PROFILE=4,SUD=PICI3-14;
+HESPC:PROFILE=4,SUD=SMSPAM-1;
+HESPC:PROFILE=4,SUD=OBR-2;
+
+
+
+IOTXP:END OF FILE;

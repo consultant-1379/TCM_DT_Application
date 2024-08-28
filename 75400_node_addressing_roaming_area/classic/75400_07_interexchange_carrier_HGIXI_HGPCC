@@ -1,0 +1,10 @@
+
+!*****  Interexchange Carrier  *****                                                                                    !
+HGIXI:IXC=TELE1	,CIC=0128	;
+HGPCC:IXC=TELE1	,PICI=12	;
+
+HGIXI:IXC=TELE2	,CIC=0129	;
+HGPCC:IXC=TELE2	,PICI=13	;
+
+HGIXI:IXC=TELE3	,CIC=0130	;
+HGPCC:IXC=TELE3	,PICI=14	;             

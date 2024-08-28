@@ -1,0 +1,12 @@
+IOTXP:-----------------------------------------;
+IOTXP: NUMBER TRANSLATIONS                     ;
+IOTXP:-----------------------------------------;
+
+IOTXP:-----------------------------------------;
+IOTXP: NUMBER TRANSLATIONS FOR MNP             ;
+IOTXP: OWN SMS-SC ADDRESSES                    ;
+IOTXP:-----------------------------------------;
+
+NHNTI:MSISDN=49101905555; 
+
+IOTXP:END OF FILE;  

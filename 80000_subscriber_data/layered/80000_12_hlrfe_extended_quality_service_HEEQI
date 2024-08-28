@@ -1,0 +1,92 @@
+IOTXP:-----------------------------------------;
+IOTXP:EXTENDED QUALITY OF SERVICE DATA         ;
+IOTXP:-----------------------------------------;
+
+IOTXP:-----------------------------------------;
+IOTXP:CONVERSATIONAL TRAFFIC CLASS             ;
+IOTXP:-----------------------------------------;
+
+     !--> standard ---!
+     HEEQC:EQOSID=0    ,CON ,TD=4000 ,ARP=3 ,DO=NO  ,SDU=NDE-50-1-1  ,MBRD=8      ,MBRU=8      ,GBRD=8      ,GBRU=8      ;
+     HEEQI:EQOSID=1    ,CON ,TD=4000 ,ARP=3 ,DO=NO  ,SDU=NDE-100-2-2 ,MBRU=63     ,MBRD=64     ,GBRU=63     ,GBRD=64     ;
+     HEEQI:EQOSID=2    ,CON ,TD=1000 ,ARP=2 ,DO=YES ,SDU=NO-100-3-3  ,MBRU=568    ,MBRD=576    ,GBRU=568    ,GBRD=576    ;
+     HEEQI:EQOSID=3    ,CON ,TD=500  ,ARP=1 ,DO=NO  ,SDU=YES-150-7-4 ,MBRU=8700   ,MBRD=8640   ,GBRU=8700   ,GBRD=8640   ;
+     HEEQI:EQOSID=4    ,CON ,TD=100  ,ARP=1 ,DO=YES ,SDU=YES-150-8-5 ,MBRU=16000  ,MBRD=16000  ,GBRU=12000  ,GBRD=12000  ;
+     
+     ! --> HSPA --- !
+     HEEQI:EQOSID=10   ,CON ,TD=200  ,ARP=2 ,DO=YES ,SDU=NO-150-8-5  ,MBRU=130000 ,MBRD=128000 ,GBRU=130000 ,GBRD=128000 ;
+     HEEQI:EQOSID=11   ,CON ,TD=100  ,ARP=1 ,DO=YES ,SDU=YES-150-8-5 ,MBRU=256000 ,MBRD=256000 ,GBRU=256000 ,GBRD=256000 ;
+     
+     ! new to be defined for 50 PDP !
+     ! HEEQI:EQOSID=12   ,CON ,TD=100  ,ARP=1 ,DO=YES ,SDU=YES-150-8-5 ,MBRU=256000 ,MBRD=256000 ,GBRU=256000 ,GBRD=256000 !
+     ! HEEQI:EQOSID=13   ,CON ,TD=100  ,ARP=1 ,DO=YES ,SDU=YES-150-8-5 ,MBRU=256000 ,MBRD=256000 ,GBRU=256000 ,GBRD=256000 !
+     ! HEEQI:EQOSID=14   ,CON ,TD=100  ,ARP=1 ,DO=YES ,SDU=YES-150-8-5 ,MBRU=256000 ,MBRD=256000 ,GBRU=256000 ,GBRD=256000 !
+
+
+
+
+IOTXP:-----------------------------------------;
+IOTXP:STREAMING TRAFFIC CLASS                  ;
+IOTXP:-----------------------------------------;
+
+     !--> standard ---!
+     HEEQI:EQOSID=1000 ,STR ,TD=4000 ,ARP=3  ,DO=NO  ,SDU=NDE-100-1-1 ,MBRU=63     ,MBRD=64     ,GBRU=63     ,GBRD=64     ;
+     HEEQI:EQOSID=1001 ,STR ,TD=4000 ,ARP=3  ,DO=NO  ,SDU=NDE-100-2-2 ,MBRU=63     ,MBRD=64     ,GBRU=63     ,GBRD=64     ;
+     HEEQI:EQOSID=1002 ,STR ,TD=1000 ,ARP=3  ,DO=YES ,SDU=NO-100-3-3  ,MBRU=568    ,MBRD=576    ,GBRU=568    ,GBRD=576    ;
+     HEEQI:EQOSID=1003 ,STR ,TD=1000 ,ARP=2  ,DO=NO  ,SDU=YES-100-7-4 ,MBRU=8700   ,MBRD=8640   ,GBRU=8700   ,GBRD=8640   ;
+     HEEQI:EQOSID=1004 ,STR ,TD=500  ,ARP=1  ,DO=YES ,SDU=YES-150-8-5 ,MBRU=16000  ,MBRD=16000  ,GBRU=12000  ,GBRD=12000  ;
+     
+     ! --> HSPA --- !
+     HEEQI:EQOSID=1010 ,STR ,TD=400  ,ARP=2 ,DO=YES ,SDU=NO-150-8-5   ,MBRU=130000 ,MBRD=128000 ,GBRU=130000 ,GBRD=128000 ;
+     HEEQI:EQOSID=1011 ,STR ,TD=400  ,ARP=1 ,DO=YES ,SDU=YES-150-8-5  ,MBRU=256000 ,MBRD=256000 ,GBRU=256000 ,GBRD=256000 ;
+     
+     ! to be defined !
+     HEEQI:EQOSID=1012 ,STR ,TD=400  ,ARP=2 ,DO=YES ,SDU=NO-150-8-5   ,MBRU=130000 ,MBRD=128000 ,GBRU=130000 ,GBRD=128000 ;
+     HEEQI:EQOSID=1013 ,STR ,TD=400  ,ARP=1 ,DO=YES ,SDU=YES-150-8-5  ,MBRU=256000 ,MBRD=256000 ,GBRU=256000 ,GBRD=256000 ;
+     HEEQI:EQOSID=1014 ,STR ,TD=400  ,ARP=1 ,DO=YES ,SDU=YES-150-8-5  ,MBRU=256000 ,MBRD=256000 ,GBRU=256000 ,GBRD=256000 ;
+
+
+IOTXP:-----------------------------------------;
+IOTXP:INTERACTIVE TRAFFIC CLASS                ;
+IOTXP:-----------------------------------------;
+
+     !--> standard ---!
+     HEEQI:EQOSID=2000 ,INT ,THP=3    ,ARP=3  ,DO=NO  ,SDU=NDE-100-4-3 ,MBRU=63     ,MBRD=64                              ;
+     HEEQI:EQOSID=2001 ,INT ,THP=2    ,ARP=3  ,DO=NO  ,SDU=NDE-100-4-4 ,MBRU=63     ,MBRD=64                              ;
+     HEEQI:EQOSID=2002 ,INT ,THP=2    ,ARP=3  ,DO=YES ,SDU=NO-100-7-4  ,MBRU=568    ,MBRD=576                             ;
+     HEEQI:EQOSID=2003 ,INT ,THP=1    ,ARP=2  ,DO=NO  ,SDU=YES-100-7-6 ,MBRU=8700   ,MBRD=8640                            ;
+     HEEQI:EQOSID=2004 ,INT ,THP=1    ,ARP=1  ,DO=YES ,SDU=YES-150-9-6 ,MBRU=16000  ,MBRD=16000                           ;
+     
+     ! --> HSPA --- !
+     HEEQI:EQOSID=2010 ,INT ,THP=1    ,ARP=2 ,DO=YES ,SDU=NO-150-9-6   ,MBRU=130000 ,MBRD=128000                          ;
+     HEEQI:EQOSID=2011 ,INT ,THP=1    ,ARP=1 ,DO=YES ,SDU=YES-150-9-6  ,MBRU=256000 ,MBRD=256000                          ;
+
+     ! new to be defined for 50 PDP !
+     ! HEEQI:EQOSID=2012 ,INT ,THP=1    ,ARP=1 ,DO=YES ,SDU=YES-150-9-6  ,MBRU=256000 ,MBRD=256000                        !
+     ! HEEQI:EQOSID=2013 ,INT ,THP=1    ,ARP=1 ,DO=YES ,SDU=YES-150-9-6  ,MBRU=256000 ,MBRD=256000                        !
+     
+     ! --> LTE --- !
+     HEEQI:EQOSID=2020 ,INT ,THP=4    ,ARP=1 ,DO=YES ,SDU=YES-150-9-6  ,MBRU=256000 ,MBRD=256000                          ;
+
+
+IOTXP:-----------------------------------------;
+IOTXP:BACKGROUND TRAFFIC CLASS                 ;
+IOTXP:-----------------------------------------;
+
+     !--> standard ---!
+     HEEQI:EQOSID=3000 ,BACK          ,ARP=3  ,DO=NO  ,SDU=NDE-100-4-3 ,MBRU=63     ,MBRD=64                              ;
+     HEEQI:EQOSID=3001 ,BACK          ,ARP=3  ,DO=NO  ,SDU=NDE-100-4-4 ,MBRU=63     ,MBRD=64                              ;
+     HEEQI:EQOSID=3002 ,BACK          ,ARP=3  ,DO=YES ,SDU=NO-100-7-4  ,MBRU=568    ,MBRD=576                             ;
+     HEEQI:EQOSID=3003 ,BACK          ,ARP=2  ,DO=NO  ,SDU=YES-100-7-6 ,MBRU=8700   ,MBRD=8640                            ;
+     HEEQI:EQOSID=3004 ,BACK          ,ARP=1  ,DO=YES ,SDU=YES-150-9-6 ,MBRU=16000  ,MBRD=16000                           ;
+                                   
+     ! --> HSPA --- !              
+     HEEQI:EQOSID=3010 ,BACK          ,ARP=2 ,DO=YES ,SDU=NO-150-9-6   ,MBRU=130000 ,MBRD=128000                          ;
+     HEEQI:EQOSID=3011 ,BACK          ,ARP=1 ,DO=YES ,SDU=YES-150-9-6  ,MBRU=256000 ,MBRD=256000                          ;
+     
+     ! new to be defined for 50 PDP !
+     ! HEEQI:EQOSID=3012 ,BACK          ,ARP=1 ,DO=YES ,SDU=YES-150-9-6  ,MBRU=256000 ,MBRD=256000                        !
+     ! HEEQI:EQOSID=3013 ,BACK          ,ARP=1 ,DO=YES ,SDU=YES-150-9-6  ,MBRU=256000 ,MBRD=256000                        !
+     ! HEEQI:EQOSID=3014 ,BACK          ,ARP=1 ,DO=YES ,SDU=YES-150-9-6  ,MBRU=256000 ,MBRD=256000                        !
+
+IOTXP:END OF FILE;

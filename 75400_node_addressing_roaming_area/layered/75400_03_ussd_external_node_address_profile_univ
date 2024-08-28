@@ -1,0 +1,8 @@
+
+     IOTXP:** HLR Layered Architecture, USSD External Node Address Profile, Initiate  ;        
+ 
+!UNIV;
+	HEXAI:ENAP=17,EADD=4-49260152020,IMSIND;
+	HEXAI:ENAP=1,EADD=4-49260152020;
+
+

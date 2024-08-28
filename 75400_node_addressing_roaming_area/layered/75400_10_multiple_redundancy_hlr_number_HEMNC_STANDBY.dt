@@ -1,0 +1,5 @@
+
+IOTXP:** Home Location Register, Multiple Redundancy HLR Number, Change *****************;
+
+HEMNC:INT=49101901111,NAT=101901111,PID=1;
+HEMNC:INT=49101902222,NAT=101902222,PID=2;

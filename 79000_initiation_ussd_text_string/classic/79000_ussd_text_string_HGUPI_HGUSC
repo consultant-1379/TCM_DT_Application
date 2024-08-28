@@ -1,0 +1,27 @@
+
+!-------------------------------------------------------------------------------------!
+!     *****  INITIATION OF USSD TEXT STRINGS  *****                                   !
+!-------------------------------------------------------------------------------------!
+HGUSC:APPL=0,	NOC=0	,ALPH=IA5	,STRING="UNKNOWN APPLICATION";
+HGUSC:APPL=0,	NOC=0	,ALPH=SMD	,STRING="UNKNOWN APPLICATION";
+                                  
+HGUSC:APPL=2,	NOC=0	,ALPH=IA5	,STRING="NOT RECOGNIZED OPERATION";
+HGUSC:APPL=2,	NOC=0	,ALPH=SMD	,STRING="NOT RECOGNIZED OPERATION";
+                                  
+HGUSC:APPL=2,	NOC=1	,ALPH=IA5	,STRING="SERVICE NOT AVAILABLE";
+HGUSC:APPL=2,	NOC=1	,ALPH=SMD	,STRING="SERVICE NOT AVAILABLE";
+                                  
+HGUSC:APPL=2,	NOC=2	,ALPH=IA5	,STRING="SUCCESSFUL OPERATION";
+HGUSC:APPL=2,	NOC=2	,ALPH=SMD	,STRING="SUCCESSFUL OPERATION";
+                                  
+HGUSC:APPL=3,	NOC=0	,ALPH=IA5	,STRING="NOT RECOGNIZED OPERATION";                                  
+HGUSC:APPL=3,	NOC=0	,ALPH=SMD	,STRING="NOT RECOGNIZED OPERATION";
+                                  
+HGUSC:APPL=3,	NOC=1	,ALPH=IA5	,STRING="SERVICE NOT AVAILABLE";
+HGUSC:APPL=3,	NOC=1	,ALPH=SMD	,STRING="SERVICE NOT AVAILABLE";
+                                  
+HGUSC:APPL=3,	NOC=2	,ALPH=IA5	,STRING="SUCCESSFUL OPERATION";
+HGUSC:APPL=3,	NOC=2	,ALPH=SMD	,STRING="SUCCESSFUL OPERATION"; 
+
+HGUSP:APPL=ALL,NOC=ALL;  
+               

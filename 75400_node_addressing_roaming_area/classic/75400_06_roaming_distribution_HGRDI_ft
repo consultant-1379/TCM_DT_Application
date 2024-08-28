@@ -1,0 +1,16 @@
+
+!*****  ROAMING DISTRIBUTION  *****                                                                                     !
+
+
+!HGRDI:RDPI=1  ,CC=46  			,NLUREJ=3 	,PRP=1 ,NPRP=2-10&3-20      ; !REMOVED in 15A from 12B!
+!HGRDI:RDPI=2  ,CC=46  			,NLUREJ=5 	,PRP=2 ,NPRP=1-20&3-10&4-20 ; !REMOVED in 15A from 12B!
+
+!HGRDI:GRDPI=1 ,CC=46  			,NLUREJ=3 	,PRP=1 ,NPRP=2-10&3-20      ; !REMOVED in 15A from 12B!
+!HGRDI:GRDPI=2 ,CC=46  			,NLUREJ=5 	,PRP=2 ,NPRP=1-20&3-10&4-20 ; !REMOVED in 15A from 12B!   
+
+
+ HGRDI:RDPI =1 ,CC=420 			,NLUREJ=5	,PRP=1	,NPRP=2-20		; !NEW in 15A!
+ HGRDI:GRDPI=1 ,CC=420 			,NLUREJ=3	,PRP=1	,NPRP=2-5		; !NEW in 15A!
+ HGRDI:         CC=421 			,NLUREJ=3	,PRP=3	,NPRP=4-5		; !NEW in 15A!
+ HGRDI:         CC=421 ,GPRS	,NLUREJ=5	,PRP=3				    ; !NEW in 15A!
+

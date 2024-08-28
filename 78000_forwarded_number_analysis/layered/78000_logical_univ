@@ -1,0 +1,70 @@
+
+    IOTXP:** HLR FE, Forwarded-to Number Analysis Data, Change  *************;   
+ 
+!UNIV;
+!This is completelly different to the running in SystemTest;
+!We need to deactivate some feature....maybe we need to migrate our DT???;
+
+     !*****************!
+     !*  Logical HLR  *!
+     !*****************!
+ 	!************************************************************************!
+	!***   FEATURE ACTIVATION IN HLR-FE FOR GSM/WCDMA ***********************!
+	!************************************************************************!
+
+	SYPAC:ACCESS=ENABLED,PSW=PSW2PAR;
+
+	!***   CONTROL OF ACTIVATION OF SEPARATE FT-N PER LOGICAL HLR   *********!
+	!***   Parameter Owner HLFNA   ******************************************!
+	DBTRI;
+	DBTSC:TAB=AXEPARS ,SETNAME=HRSLAC     ,NAME=FTNTABRID        ,VALUE=    0;
+	DBTRE:COM;
+
+!Pre-define Forwarding to Number for RID=1 and RID=20, CLT Test case TC_INT2_LHLRRS001 !
+	DBTRI;
+        DBTSC:TAB=AXEPARS,SETNAME=HRSLAC,NAME=LOGICALHLRACT,VALUE=1;
+        DBTRE:COM;
+
+IOTXP:** FORWARDED TO NUMBER ANALYSIS-LOGICAL HLR ******************************;
+        HEFZI:RID=1;
+        HEFCI:RID=1;
+        HEFSI:OFA=0,RID=1;
+        HEFAI:RID=1;
+
+        HEFZI:RID=20;
+        HEFCI:RID=20;
+        HEFSI:OFA=0,RID=20;
+        HEFAI:RID=20;
+	
+	DBTRI;
+        DBTSC:TAB=AXEPARS,SETNAME=HRSLAC,NAME=LOGICALHLRACT,VALUE=0;
+        DBTRE:COM;
+
+	SYPAC:ACCESS=DISABLED;
+
+
+IOTXP:** FORWARDED TO NUMBER ANALYSIS ***********************************;
+
+HEFAI;
+HEFAR;
+HEFZI;
+HEFSI:OFA=0;
+HEFSI:OFA=1;  
+HEFSI:OFA=2;
+HEFSI:OFA=3;
+
+HEFSI:FW=0-00,M=2;
+
+HEFSI:FW=1-00,M=2,F=1;
+HEFSI:FW=1-491925,REST;
+
+HEFSI:FW=2-00,M=2,F=2;
+HEFSI:FW=2-491925,REST;
+
+HEFSI:FW=3-00,M=2,F=3;
+HEFSI:FW=3-491925,REST;
+
+HEFSI:FW=1-38,M=2-49,F=1;
+
+HEFAI; 
+

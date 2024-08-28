@@ -1,0 +1,29 @@
+
+	IOTXP:** HLR Layered Architecture, Interexchange Carrier, Initiate	 *****;
+
+	HEIXI:IXC=TELE1		,CIC=0128		;
+	HEIXI:IXC=TELE2		,CIC=0129		;
+	HEIXI:IXC=TELE3		,CIC=0130		;
+
+!	HEIXI:IXC=CING1		,CIC=12345		;
+!	HEIXI:IXC=CING2		,CIC=5555		;
+!	HEIXI:IXC=CING3		,CIC=333345		;
+!	HEIXI:IXC=CING4		,CIC=2345		;
+!	HEIXI:IXC=CING5		,CIC=4444		;
+!	HEIXI:IXC=CING6		,CIC=222245		;
+
+
+	IOTXP:** HLR Layered Architecture, Interexchange Carrier, Preferred  *******;
+
+	HEPCC:PICI=12		,IXC=TELE1		;
+	HEPCC:PICI=13		,IXC=TELE2		;
+	HEPCC:PICI=14		,IXC=TELE3		;
+
+!	HEPCC:IXC=CING1		,PICI=1		;
+!	HEPCC:IXC=CING2		,PICI=10		;
+!	HEPCC:IXC=CING3		,PICI=11		;
+!	HEPCC:IXC=CING5		,PICI=2		;
+!	HEPCC:IXC=CING5		,PICI=20		;
+!	HEPCC:IXC=CING6		,PICI=21		;
+
+

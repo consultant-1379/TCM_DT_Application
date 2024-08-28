@@ -1,0 +1,22 @@
+
+     IOTXP:** Number Portability Handler, Network Generic IMSI, Initiate *****;  
+
+     NHGII:NPREFIX=9997240999        	,GIMSI=1234567			; 
+     NHGII:NPREFIX=222#10#11#12#13222	,GIMSI=1234567			;                                                               
+     NHGII:NPREFIX=3337250333        	,GIMSI=45671234			;                                 
+     NHGII:NPREFIX=1118230111        	,GIMSI=112233445566		;                             
+     NHGII:NPREFIX=333#13#13#14#14333	,GIMSI=43217654			;                               
+     NHGII:NPREFIX=3437250333        	,GIMSI=11111111			;
+     NHGII:NPREFIX=3437250444        	,GIMSI=22222222			;
+     NHGII:NPREFIX=3437250555        	,GIMSI=55555555			;                                    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

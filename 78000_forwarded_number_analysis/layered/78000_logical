@@ -1,0 +1,423 @@
+
+    IOTXP:** HLR FE, Forwarded-to Number Analysis Data, Change  *************;   
+ 
+                                                                                  
+     !*****************!
+     !*  Logical HLR  *!
+     !*****************!
+ 
+     HEFZI:RID=0										;     
+     HEFCI:RID=0										;     
+     HEFSI:OFA=0								,RID= 0	;
+     HEFSI:FW =0-00				,M=2	,F=0	,RID= 0	;
+     HEFSI:FW =1-00				,M=2	,F=1	,RID= 0	;
+     HEFSI:FW =2-00				,M=2	,F=2	,RID= 0	;
+     HEFSI:FW =3-00				,M=2	,F=3	,RID= 0	;
+     HEFSI:FW =1-491925	,REST					,RID= 0	;
+     HEFSI:FW =2-491925	,REST					,RID= 0	;
+     HEFSI:FW =3-491925	,REST					,RID= 0	;
+     HEFAI:RID=0										;     
+
+   
+     HEFZI:RID=1										;     
+     HEFCI:RID=1										;     
+     HEFSI:OFA=0								,RID= 1	;
+     HEFSI:FW =0-00				,M=2	,F=0	,RID= 1	;
+     HEFSI:FW =1-00				,M=2	,F=1	,RID= 1	;
+     HEFSI:FW =2-00				,M=2	,F=2	,RID= 1	;
+     HEFSI:FW =3-00				,M=2	,F=3	,RID= 1	;
+     HEFSI:FW =1-491925	,REST					,RID= 1	;
+     HEFSI:FW =2-491925	,REST					,RID= 1	;
+     HEFSI:FW =3-491925	,REST					,RID= 1	;
+     HEFAI:RID=1										;   
+     
+  
+     HEFZI:RID=2										;     
+     HEFCI:RID=2										;     
+     HEFSI:OFA=0								,RID= 2	;
+     HEFSI:FW =0-00				,M=2	,F=0	,RID= 2	;
+     HEFSI:FW =1-00				,M=2	,F=1	,RID= 2	;
+     HEFSI:FW =2-00				,M=2	,F=2	,RID= 2	;
+     HEFSI:FW =3-00				,M=2	,F=3	,RID= 2	;
+     HEFSI:FW =1-491925	,REST					,RID= 2	;
+     HEFSI:FW =2-491925	,REST					,RID= 2	;
+     HEFSI:FW =3-491925	,REST					,RID= 2	;
+     HEFAI:RID=2										; 
+
+    
+     HEFZI:RID=3										;
+     HEFCI:RID=3										;
+     HEFSI:OFA=0								,RID= 3	;
+     HEFSI:FW =0-00				,M=2	,F=0	,RID= 3	;
+     HEFSI:FW =1-00				,M=2	,F=1	,RID= 3	;
+     HEFSI:FW =2-00				,M=2	,F=2	,RID= 3	;
+     HEFSI:FW =3-00				,M=2	,F=3	,RID= 3	;
+     HEFSI:FW =1-491925	,REST					,RID= 3	;
+     HEFSI:FW =2-491925	,REST					,RID= 3	;
+     HEFSI:FW =3-491925	,REST					,RID= 3	;
+     HEFAI:RID=3										; 
+
+
+     HEFZI:RID=4										;
+     HEFCI:RID=4										;
+     HEFSI:OFA=0								,RID= 4	;
+     HEFSI:FW =0-00				,M=2	,F=0	,RID= 4	;
+     HEFSI:FW =1-00				,M=2	,F=1	,RID= 4	;
+     HEFSI:FW =2-00				,M=2	,F=2	,RID= 4	;
+     HEFSI:FW =3-00				,M=2	,F=3	,RID= 4	;
+     HEFSI:FW =1-491925	,REST					,RID= 4	;
+     HEFSI:FW =2-491925	,REST					,RID= 4	;
+     HEFSI:FW =3-491925	,REST					,RID= 4	;
+     HEFAI:RID=4										; 
+ 
+
+     HEFZI:RID=5										;
+     HEFCI:RID=5										;
+     HEFSI:OFA=0								,RID= 5	;
+     HEFSI:FW =0-00				,M=2	,F=0	,RID= 5	;
+     HEFSI:FW =1-00				,M=2	,F=1	,RID= 5	;
+     HEFSI:FW =2-00				,M=2	,F=2	,RID= 5	;
+     HEFSI:FW =3-00				,M=2	,F=3	,RID= 5	;
+     HEFSI:FW =1-491925	,REST					,RID= 5	;
+     HEFSI:FW =2-491925	,REST					,RID= 5	;
+     HEFSI:FW =3-491925	,REST					,RID= 5	;
+     HEFAI:RID=5										; 
+
+
+     HEFZI:RID=6										;
+     HEFCI:RID=6										;
+     HEFSI:OFA=0								,RID= 6	;
+     HEFSI:FW =0-00				,M=2	,F=0	,RID= 6	;
+     HEFSI:FW =1-00				,M=2	,F=1	,RID= 6	;
+     HEFSI:FW =2-00				,M=2	,F=2	,RID= 6	;
+     HEFSI:FW =3-00				,M=2	,F=3	,RID= 6	;
+     HEFSI:FW =1-491925	,REST					,RID= 6	;
+     HEFSI:FW =2-491925	,REST					,RID= 6	;
+     HEFSI:FW =3-491925	,REST					,RID= 6	;
+     HEFAI:RID=6										;        
+
+
+     HEFZI:RID=7										;
+     HEFCI:RID=7										;
+     HEFSI:OFA=0								,RID= 7	;
+     HEFSI:FW =0-00				,M=2	,F=0	,RID= 7	;
+     HEFSI:FW =1-00				,M=2	,F=1	,RID= 7	;
+     HEFSI:FW =2-00				,M=2	,F=2	,RID= 7	;
+     HEFSI:FW =3-00				,M=2	,F=3	,RID= 7	;
+     HEFSI:FW =1-491925	,REST					,RID= 7	;
+     HEFSI:FW =2-491925	,REST					,RID= 7	;
+     HEFSI:FW =3-491925	,REST					,RID= 7	;
+     HEFAI:RID=7										;        
+
+
+     HEFZI:RID=8										;
+     HEFCI:RID=8										;
+     HEFSI:OFA=0								,RID= 8	;
+     HEFSI:FW =0-00				,M=2	,F=0	,RID= 8	;
+     HEFSI:FW =1-00				,M=2	,F=1	,RID= 8	;
+     HEFSI:FW =2-00				,M=2	,F=2	,RID= 8	;
+     HEFSI:FW =3-00				,M=2	,F=3	,RID= 8	;
+     HEFSI:FW =1-491925	,REST					,RID= 8	;
+     HEFSI:FW =2-491925	,REST					,RID= 8	;
+     HEFSI:FW =3-491925	,REST					,RID= 8	;
+     HEFAI:RID=8										;        
+
+
+     HEFZI:RID=9										;
+     HEFCI:RID=9										;
+     HEFSI:OFA=0								,RID= 9	;
+     HEFSI:FW =0-00				,M=2	,F=0	,RID= 9	;
+     HEFSI:FW =1-00				,M=2	,F=1	,RID= 9	;
+     HEFSI:FW =2-00				,M=2	,F=2	,RID= 9	;
+     HEFSI:FW =3-00				,M=2	,F=3	,RID= 9	;
+     HEFSI:FW =1-491925	,REST					,RID= 9	;
+     HEFSI:FW =2-491925	,REST					,RID= 9	;
+     HEFSI:FW =3-491925	,REST					,RID= 9	;
+     HEFAI:RID=9										;        
+
+
+     HEFZI:RID=10										;
+     HEFCI:RID=10										;  
+     HEFSI:OFA=0								,RID=10	;
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=10	;
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=10	;
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=10	;
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=10	;
+     HEFSI:FW =1-491925	,REST					,RID=10	;
+     HEFSI:FW =2-491925	,REST					,RID=10	;
+     HEFSI:FW =3-491925	,REST					,RID=10	;
+     HEFAI:RID=10										;        
+
+
+     HEFZI:RID=11										;
+     HEFCI:RID=11										;
+     HEFSI:OFA=0								,RID=11	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=11	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=11	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=11	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=11	;         
+     HEFSI:FW =1-491925	,REST					,RID=11	;         
+     HEFSI:FW =2-491925	,REST					,RID=11	;         
+     HEFSI:FW =3-491925	,REST					,RID=11	;         
+     HEFAI:RID=11										;         
+
+
+
+     HEFZI:RID=12										;
+     HEFCI:RID=12										;
+     HEFSI:OFA=0								,RID=12	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=12	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=12	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=12	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=12	;         
+     HEFSI:FW =1-491925	,REST					,RID=12	;         
+     HEFSI:FW =2-491925	,REST					,RID=12	;         
+     HEFSI:FW =3-491925	,REST					,RID=12	;         
+     HEFAI:RID=12										;                
+
+
+     HEFZI:RID=13										;
+     HEFCI:RID=13										;
+     HEFSI:OFA=0								,RID=13	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=13	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=13	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=13	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=13	;         
+     HEFSI:FW =1-491925	,REST					,RID=13	;         
+     HEFSI:FW =2-491925	,REST					,RID=13	;         
+     HEFSI:FW =3-491925	,REST					,RID=13	;         
+     HEFAI:RID=13										;                
+
+
+     HEFZI:RID=14										;
+     HEFCI:RID=14										;
+     HEFSI:OFA=0								,RID=14	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=14	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=14	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=14	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=14	;         
+     HEFSI:FW =1-491925	,REST					,RID=14	;         
+     HEFSI:FW =2-491925	,REST					,RID=14	;         
+     HEFSI:FW =3-491925	,REST					,RID=14	;         
+     HEFAI:RID=14										;                
+
+
+     HEFZI:RID=15										;
+     HEFCI:RID=15										;
+     HEFSI:OFA=0								,RID=15	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=15	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=15	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=15	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=15	;         
+     HEFSI:FW =1-491925	,REST					,RID=15	;         
+     HEFSI:FW =2-491925	,REST					,RID=15	;         
+     HEFSI:FW =3-491925	,REST					,RID=15	;         
+     HEFAI:RID=15										;                
+
+
+     HEFZI:RID=16										;
+     HEFCI:RID=16										;
+     HEFSI:OFA=0								,RID=16	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=16	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=16	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=16	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=16	;         
+     HEFSI:FW =1-491925	,REST					,RID=16	;         
+     HEFSI:FW =2-491925	,REST					,RID=16	;         
+     HEFSI:FW =3-491925	,REST					,RID=16	;         
+     HEFAI:RID=16										;                
+
+
+     HEFZI:RID=17										;
+     HEFCI:RID=17										;
+     HEFSI:OFA=0								,RID=17	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=17	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=17	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=17	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=17	;         
+     HEFSI:FW =1-491925	,REST					,RID=17	;         
+     HEFSI:FW =2-491925	,REST					,RID=17	;         
+     HEFSI:FW =3-491925	,REST					,RID=17	;         
+     HEFAI:RID=17										;                
+
+
+     HEFZI:RID=18										;
+     HEFCI:RID=18										;
+     HEFSI:OFA=0								,RID=18	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=18	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=18	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=18	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=18	;         
+     HEFSI:FW =1-491925	,REST					,RID=18	;         
+     HEFSI:FW =2-491925	,REST					,RID=18	;         
+     HEFSI:FW =3-491925	,REST					,RID=18	;         
+     HEFAI:RID=18										;                
+
+
+     HEFZI:RID=19										;
+     HEFCI:RID=19										;
+     HEFSI:OFA=0								,RID=19	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=19	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=19	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=19	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=19	;         
+     HEFSI:FW =1-491925	,REST					,RID=19	;         
+     HEFSI:FW =2-491925	,REST					,RID=19	;         
+     HEFSI:FW =3-491925	,REST					,RID=19	;         
+     HEFAI:RID=19										;                
+
+
+     HEFZI:RID=20										;
+     HEFCI:RID=20										;
+     HEFSI:OFA=0								,RID=20	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=20	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=20	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=20	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=20	;         
+     HEFSI:FW =1-491925	,REST					,RID=20	;         
+     HEFSI:FW =2-491925	,REST					,RID=20	;         
+     HEFSI:FW =3-491925	,REST					,RID=20	;         
+     HEFAI:RID=20										;                
+
+
+     HEFZI:RID=21										;
+     HEFCI:RID=21										;
+     HEFSI:OFA=0								,RID=21	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=21	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=21	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=21	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=21	;         
+     HEFSI:FW =1-491925	,REST					,RID=21	;         
+     HEFSI:FW =2-491925	,REST					,RID=21	;         
+     HEFSI:FW =3-491925	,REST					,RID=21	;         
+     HEFAI:RID=21										;                
+
+
+     HEFZI:RID=22										;
+     HEFCI:RID=22										;
+     HEFSI:OFA=0								,RID=22	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=22	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=22	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=22	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=22	;         
+     HEFSI:FW =1-491925	,REST					,RID=22	;         
+     HEFSI:FW =2-491925	,REST					,RID=22	;         
+     HEFSI:FW =3-491925	,REST					,RID=22	;         
+     HEFAI:RID=22										;                
+
+
+     HEFZI:RID=23										;
+     HEFCI:RID=23										;
+     HEFSI:OFA=0								,RID=23	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=23	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=23	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=23	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=23	;         
+     HEFSI:FW =1-491925	,REST					,RID=23	;         
+     HEFSI:FW =2-491925	,REST					,RID=23	;         
+     HEFSI:FW =3-491925	,REST					,RID=23	;         
+     HEFAI:RID=23										;                
+
+
+     HEFZI:RID=24										;
+     HEFCI:RID=24										;
+     HEFSI:OFA=0								,RID=24	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=24	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=24	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=24	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=24	;         
+     HEFSI:FW =1-491925	,REST					,RID=24	;         
+     HEFSI:FW =2-491925	,REST					,RID=24	;         
+     HEFSI:FW =3-491925	,REST					,RID=24	;         
+     HEFAI:RID=24										;                
+
+
+     HEFZI:RID=25										;
+     HEFCI:RID=25										;
+     HEFSI:OFA=0								,RID=25	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=25	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=25	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=25	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=25	;         
+     HEFSI:FW =1-491925	,REST					,RID=25	;         
+     HEFSI:FW =2-491925	,REST					,RID=25	;         
+     HEFSI:FW =3-491925	,REST					,RID=25	;         
+     HEFAI:RID=25										;                
+
+
+     HEFZI:RID=26										;
+     HEFCI:RID=26										;
+     HEFSI:OFA=0								,RID=26	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=26	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=26	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=26	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=26	;         
+     HEFSI:FW =1-491925	,REST					,RID=26	;         
+     HEFSI:FW =2-491925	,REST					,RID=26	;         
+     HEFSI:FW =3-491925	,REST					,RID=26	;         
+     HEFAI:RID=26										;                
+
+
+     HEFZI:RID=27										;
+     HEFCI:RID=27										;
+     HEFSI:OFA=0								,RID=27	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=27	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=27	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=27	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=27	;         
+     HEFSI:FW =1-491925	,REST					,RID=27	;         
+     HEFSI:FW =2-491925	,REST					,RID=27	;         
+     HEFSI:FW =3-491925	,REST					,RID=27	;         
+     HEFAI:RID=27										;                
+
+
+     HEFZI:RID=28										;
+     HEFCI:RID=28										;
+     HEFSI:OFA=0								,RID=28	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=28	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=28	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=28	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=28	;         
+     HEFSI:FW =1-491925	,REST					,RID=28	;         
+     HEFSI:FW =2-491925	,REST					,RID=28	;         
+     HEFSI:FW =3-491925	,REST					,RID=28	;         
+     HEFAI:RID=28										;                
+
+
+     HEFZI:RID=29										;
+     HEFCI:RID=29										;
+     HEFSI:OFA=0								,RID=29	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=29	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=29	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=29	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=29	;         
+     HEFSI:FW =1-491925	,REST					,RID=29	;         
+     HEFSI:FW =2-491925	,REST					,RID=29	;         
+     HEFSI:FW =3-491925	,REST					,RID=29	;         
+     HEFAI:RID=29										;                
+
+
+     HEFZI:RID=30										;
+     HEFCI:RID=30										;
+     HEFSI:OFA=0								,RID=30	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=30	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=30	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=30	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=30	;         
+     HEFSI:FW =1-491925	,REST					,RID=30	;         
+     HEFSI:FW =2-491925	,REST					,RID=30	;         
+     HEFSI:FW =3-491925	,REST					,RID=30	;         
+     HEFAI:RID=30										;                
+
+
+     HEFZI:RID=31										;
+     HEFCI:RID=31										;
+     HEFSI:OFA=0								,RID=31	;         
+     HEFSI:FW =0-00				,M=2	,F=0	,RID=31	;         
+     HEFSI:FW =1-00				,M=2	,F=1	,RID=31	;         
+     HEFSI:FW =2-00				,M=2	,F=2	,RID=31	;         
+     HEFSI:FW =3-00				,M=2	,F=3	,RID=31	;         
+     HEFSI:FW =1-491925	,REST					,RID=31	;         
+     HEFSI:FW =2-491925	,REST					,RID=31	;         
+     HEFSI:FW =3-491925	,REST					,RID=31	;         
+     HEFAI:RID=31										;                

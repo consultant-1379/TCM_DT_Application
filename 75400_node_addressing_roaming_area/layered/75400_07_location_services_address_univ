@@ -1,0 +1,12 @@
+IOTXP:-----------------------------------------;
+IOTXP:LOCATION SERVICES ADDRESSES              ;
+IOTXP:-----------------------------------------;
+
+!UNIV;
+     !Add GLMCA addresses, first free position!
+     HEGLI:GMLCA=49260152020,GMLCID=212;
+     HEGLI:GMLCA=49260152030,GMLCID=213; 
+     HEGLI:GMLCA=49260152040,GMLCID=214;
+
+IOTXP:END OF FILE;
+

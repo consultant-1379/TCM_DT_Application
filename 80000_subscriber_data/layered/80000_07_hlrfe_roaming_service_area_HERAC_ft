@@ -1,0 +1,18 @@
+
+	IOTXP:** HLR Layered Architecture, Roaming Service Area, Change  ********;
+
+	HERAC:RSA=2		,RAID=2		,RSP=1							;
+	HERAC:RSA=3		,RAID=2		,RSP=1							;
+	HERAC:RSA=3		,RAID=2		,RSP=3							;
+
+	HERAC:RSA=10	,RAID=1		,RSP=71				,RSIP=61	;
+	HERAC:RSA=10	,RAID=126						,RSIP=126	;
+	HERAC:RSA=10	,RAID=127						,RSIP=127	;
+
+	HERAC:RSA=99	,RAID=63	,RSP=99							;
+	HERAC:RSA=100	,RAID=63	,RSP=100	,SRR=2				;
+	HERAC:RSA=110	,RAID=63	,RSP=110	,SRR=1				;
+	HERAC:RSA=128	,RAID=63	,RSP=128						;
+	HERAC:RSA=100	,RAID=2					,SRR=2				;
+	HERAC:RSA=110	,RAID=2					,SRR=1				;
+

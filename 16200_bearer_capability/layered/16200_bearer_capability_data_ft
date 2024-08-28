@@ -1,0 +1,16 @@
+IOTXP:-----------------------------------------;
+IOTXP:BEARER CAPABILITY DATA                   ;
+IOTXP:-----------------------------------------;
+
+     HEBDI:BC=10,AUDIO  ,ACCST=1-0-1-3 ,RC=1-1-3-2-4  ,ACC=0-0-1-1 ,ITN=2 ;
+     HEBDI:BC=11,AUDIO  ,ACCST=1-0-1-3 ,RC=5-8-3      ,ACC=0-0-1-1 ,ITN=1 ;
+     HEBDI:BC=13,AUDIO  ,ACCST=1-0-1-3 ,RC=4-6-3      ,ACC=0-0-1-1 ,ITN=2 ;
+     HEBDI:BC=16,UDI    ,ACCST=1-0-0-2 ,RC=1-0-2      ,ACC=1-3-1-0 ,ITN=0 ;
+     HEBDI:BC=17,UDI    ,ACCST=2-0-1-3 ,RC=2-0-2      ,ACC=1-3-0-0 ,ITN=0 ;
+     HEBDI:BC=18,ALTFAX                ,RC=5-0-3      ,ACC=0-3-0-0 ,ITN=0 ;
+     HEBDI:BC=20,AUDIO  ,ACCST=1-0-1-3 ,RC=5-0-3-2-4  ,ACC=3-3-0   ,ITN=0 ;
+     HEBDI:BC=22,UDI    ,ACCST=1-0-1-3 ,RC=5-0-3-0-8  ,ACC=2-0-1-0 ,ITN=1 ;
+     HEBDI:BC=23,RDI    ,ACCST=1-0-1-3 ,RC=5-0-3-0-7  ,ACC=2-0-1-0 ,ITN=1 ;
+     HEBDI:BC=12,UDI    ,ACCST=1-0-1-3 ,RC=5-0-3-0-10 ,ACC=3-3-0-0 ,ITN=0 ;
+	 
+IOTXP:END OF FILE;

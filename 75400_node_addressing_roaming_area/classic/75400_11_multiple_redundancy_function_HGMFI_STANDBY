@@ -1,0 +1,10 @@
+IOTXP:** Home Location Register, Multiple Redundancy Function, Initiate *****************;
+
+
+!CTRAFFIC must be set to 1 in order to initiate redundancy!
+test system;
+set var hnrea 76 = 1;
+end test;
+
+HGMFI:pid=1;
+HGMFI:pid=2;

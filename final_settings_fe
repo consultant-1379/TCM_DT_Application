@@ -1,0 +1,20 @@
+
+
+	!***   ACTIVATION OF MULTIPLE HLR NODE REDUNDANCY   *********************!
+	!***   Parameter Owner HLRSC   ******************************************!
+	DBTRI;
+	DBTSC:TAB=AXEPARS	,SETNAME=HRSLAC		,NAME=REDNPLUS1ACT	,VALUE=	0;
+	DBTRE:COM;
+
+	
+	!***   XXX XXXXXXX XXXXXXXXXX XXXXXX   **********************************!
+	!***   HLR-FE 15A Single CUDB Access feature deactivation ***************!
+	! This feature must be deactivated when openLDAP is used as CUDB simulator !
+	! This is a temporary workaround until openLDAP DIT structure is aligned !
+	! with that of CUDB. Please remove this afterwards                       !
+!	TEST SYSTEM;
+!	SET VAR HLSAAP3 97 = 0;
+!	SET VAR HLSDPAP 75 = 0;
+!	SET VAR ALMAPTC 131 = 0;
+!	END TEST;
+

@@ -1,0 +1,11 @@
+IOTXP:-----------------------------------------;
+IOTXP:PREFERRED PARTNER ROAMING DISTRIBUTION   ;
+IOTXP:-----------------------------------------;
+
+     HERDI:RDPI=1,CC=420,NPRP=2-20,PRP=1,NLUREJ=5;
+     HERDI:GRDPI=1,CC=420,NPRP=2-5,PRP=1,NLUREJ=3;
+	 
+     HERDI:CC=421,NPRP=4-5,PRP=3,NLUREJ=3;
+     HERDI:CC=421,GPRS,PRP=3,NLUREJ=5;  
+
+IOTXP:END OF FILE;

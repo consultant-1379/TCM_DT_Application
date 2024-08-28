@@ -1,0 +1,8 @@
+IOTXP:-----------------------------------------;
+IOTXP: OWN NETWORK PREFIX                      ;
+IOTXP:-----------------------------------------;
+
+FGOPC:ONPREFIX=3692,GSM;
+FGOPC:ONPREFIX=4489,PSTN;
+
+IOTXP:END OF FILE;

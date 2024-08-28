@@ -1,0 +1,6 @@
+
+	IOTXP:** HLR Layered Architecture, Zone Code Set Data, Initiate  ********;
+
+	HEZNI:ZCSET=1	,RSAI=15	,ZC=002				;
+!	HEZNI:ZCSET=6	,RSAI=17	,ZC=50&14&190		;
+

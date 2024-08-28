@@ -1,0 +1,11 @@
+IOTXP:-----------------------------------------;
+IOTXP: OWN GMSC SERIES                         ;
+IOTXP:-----------------------------------------;
+
+!UNIV;
+
+IOTXP:** OWN GMSC SERIES ********************************************;
+
+NHGSI:GMSCS=2601;    !OWN GMSC SERIES IN NATIONAL FORMAT!
+
+IOTXP:END OF FILE; 

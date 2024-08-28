@@ -1,0 +1,23 @@
+
+
+!*****  Forwarded-to Number Analysis  *****                                                                             ! 
+HGFAI;
+HGFAR;
+HGFZI;
+HGFSI:OFA=0;
+HGFSI:OFA=1;  
+HGFSI:OFA=2;
+HGFSI:OFA=3;
+
+HGFSI:FW=0-00,M=2;
+
+HGFSI:FW=1-00,M=2,F=1;
+HGFSI:FW=1-491925,REST;
+
+HGFSI:FW=2-00,M=2,F=2;
+HGFSI:FW=2-491925,REST;
+
+HGFSI:FW=3-00,M=2,F=3;
+HGFSI:FW=3-491925,REST;
+
+HGFAI;                 

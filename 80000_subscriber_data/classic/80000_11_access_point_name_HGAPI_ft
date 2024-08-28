@@ -1,0 +1,19 @@
+IOTXP:-----------------------------------------;
+IOTXP:ACCESS POINT NAME DATA                   ;
+IOTXP:-----------------------------------------;
+     
+	 HGAPI:APNID=0, APN1="C.C-0"                                                              	  ;
+     HGAPI:APNID=1, APN1="C.CENTER1"                                                              ;
+     HGAPI:APNID=2, APN1="COMUNICATION.CENTER.NUMBER2"											  ;
+     HGAPI:APNID=3, APN1="COMUNICATION.CENTER.NUMBER-3.ECE.ERICSSON"							  ;
+     HGAPI:APNID=4, APN1="COMUNICATION.CENTER.NUMBER-4.ECE.ERICSSO",APN2="N.SE"					  ;
+     HGAPI:APNID=5, APN1="COMUNICATION.CENTER.NUMBER-FIVE.AT.MADRI",APN2="D"					  ;
+     HGAPI:APNID=6, APN1="COMUNICATION.CENTER.NUMBER-SIX.ERICSSON.S",APN2="PAIN-MADRID-TS.FLOOR6" ;
+     HGAPI:APNID=7, APN1="COMUNICATION.CENTER.N",APN2="UMBER-7.ERICSSON.SPAIN-MADRID-TS.FLOOR-07" ;
+     HGAPI:APNID=10,APN1="EMER9S.MADRID.ERICSSON.SE"											  ;
+     HGAPI:APNID=11,APN1="ECER9S.MADRID.ERICSSON.SE"											  ;
+     HGAPI:APNID=19,APN1="R9SATELLITE.SUBPROJECT.AT.ECE"										  ;
+     HGAPI:APNID=12,APN1="WWW.ERICSSON12.COM"													  ;
+	 HGAPI:APNID=13,APN1="COMPANY.COM"                                                            ;
+	 
+IOTXP:END OF FILE;

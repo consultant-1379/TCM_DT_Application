@@ -1,0 +1,19 @@
+IOTXP:-----------------------------------------;
+IOTXP:GSMSCF ADDRESSES                         ;
+IOTXP:-----------------------------------------;
+
+!UNIV;
+!needed for ATI, otherwise HLR-S will answer with FC49!
+     HEGSI:GSA=49260152020; 
+     HEGSI:GSA=49260152021;
+     HEGSI:GSA=49260152030; 
+     HEGSI:GSA=49260152031;
+     HEGSI:GSA=49260152040;
+     HEGSI:GSA=49260152041;
+     HEGSI:GSA=49101924112;
+     HEGSI:GSA=49151111300;
+     HEGSI:GSA=49151111400;
+     HEGSI:GSA=49151111500;
+
+
+IOTXP:END OF FILE;

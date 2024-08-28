@@ -1,0 +1,9 @@
+
+!*****  HLR NETWORK IP ADDRESS  *****                                                                                   !                      
+
+HGNII:NAID=1 ,IP="251.1.123.5"                             ,IPTYPE=IPV4 ,IPPORT=65515 ;
+HGNII:NAID=2 ,IP="FF:2:3E:4A:FFFF:0:FFF:2"                 ,IPTYPE=IPV6 ,IPPORT=100   ;
+HGNII:NAID=3 ,URL1="WWW.COMPANY.COM"                                                  ;  
+HGNII:NAID=4 ,URL1="ETH.ERICSSON.SE"                                                  ; 
+HGNII:NAID=5 ,IP="3EDC:34FF:2345:567B:3EDC:34FF:2345:567B" ,IPTYPE=IPV6 ,IPPORT=5000  ; 
+HGNII:NAID=6 ,IP="156.58.89.23"                            ,IPTYPE=IPV4 ,IPPORT=65521 ;       

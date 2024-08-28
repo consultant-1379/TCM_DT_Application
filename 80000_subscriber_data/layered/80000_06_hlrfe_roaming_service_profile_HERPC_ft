@@ -1,0 +1,92 @@
+
+     IOTXP:** HLR Layered Architecture, Roaming Service Profile, Change  *****;
+
+	HERPC:RSP=1		,SUD=TS21-1&TS22-1							;
+	HERPC:RSP=1		,SUD=ARD-1									;
+	HERPC:RSP=1		,SUD=TS21-1									;
+	HERPC:RSP=1		,SUD=TS22-1									;
+
+	HERPC:RSP=3		,SUD=ARD-1									;
+	HERPC:RSP=3		,SUD=TS21-1									;
+
+     HERPC:RSP =71	  ,SUD=CFU-1                                ;
+     HERPC:RSP =71	  ,SUD=CFNRC-1                              ;
+     HERPC:RSP =71	  ,SUD=HOLD-1                               ;
+
+     HERPC:RSP =100   ,SUD=TS21-1&TS22-1                        ;
+
+     HERPC:RSP =110   ,SUD=AOC-1&OICK-1&TICK-1                  ;
+
+     HERPC:RSP =128   ,TDPTYPE=OCTDP           ,SK=1234567890   ;
+     HERPC:RSP =128   ,TDPTYPE=OCTDP           ,SK=1234567891   ;
+     HERPC:RSP =128   ,TDPTYPE=OCTDP           ,SK=1234567892   ;
+     HERPC:RSP =128   ,TDPTYPE=OCTDP           ,SK=1234567893   ;
+     HERPC:RSP =128   ,TDPTYPE=OCTDP           ,SK=1234567894   ;
+     HERPC:RSP =128   ,TDPTYPE=OCTDP           ,SK=1234567895   ;
+     HERPC:RSP =128   ,TDPTYPE=OCTDP           ,SK=1234567896   ;
+     HERPC:RSP =128   ,TDPTYPE=OCTDP           ,SK=1234567897   ;
+     HERPC:RSP =128   ,TDPTYPE=OCTDP           ,SK=1234567898   ;
+     HERPC:RSP =128   ,TDPTYPE=OCTDP           ,SK=1234567899   ;
+     HERPC:RSP =128   ,TDPTYPE=TCTDP           ,SK=1234567890   ;
+     HERPC:RSP =128   ,TDPTYPE=TCTDP           ,SK=1234567891   ;
+     HERPC:RSP =128   ,TDPTYPE=TCTDP           ,SK=1234567892   ;
+     HERPC:RSP =128   ,TDPTYPE=TCTDP           ,SK=1234567893   ;
+     HERPC:RSP =128   ,TDPTYPE=TCTDP           ,SK=1234567894   ;
+     HERPC:RSP =128   ,TDPTYPE=TCTDP           ,SK=1234567895   ;
+     HERPC:RSP =128   ,TDPTYPE=TCTDP           ,SK=1234567896   ;
+     HERPC:RSP =128   ,TDPTYPE=TCTDP           ,SK=1234567897   ;
+     HERPC:RSP =128   ,TDPTYPE=TCTDP           ,SK=1234567898   ;
+     HERPC:RSP =128   ,TDPTYPE=TCTDP           ,SK=1234567899   ;
+     HERPC:RSP =128   ,TDPTYPE=GPRSTDP         ,SK=1234567890   ;
+     HERPC:RSP =128   ,TDPTYPE=GPRSTDP         ,SK=1234567891   ;
+     HERPC:RSP =128   ,TDPTYPE=GPRSTDP         ,SK=1234567892   ;
+     HERPC:RSP =128   ,TDPTYPE=GPRSTDP         ,SK=1234567893   ;
+     HERPC:RSP =128   ,TDPTYPE=GPRSTDP         ,SK=1234567894   ;
+     HERPC:RSP =128   ,TDPTYPE=GPRSTDP         ,SK=1234567895   ;
+     HERPC:RSP =128   ,TDPTYPE=GPRSTDP         ,SK=1234567896   ;
+     HERPC:RSP =128   ,TDPTYPE=GPRSTDP         ,SK=1234567897   ;
+     HERPC:RSP =128   ,TDPTYPE=GPRSTDP         ,SK=1234567898   ;
+     HERPC:RSP =128   ,TDPTYPE=GPRSTDP         ,SK=1234567899   ;
+     HERPC:RSP =128   ,TDPTYPE=OSMSTDP         ,SK=1234567890   ;
+     HERPC:RSP =128   ,TDPTYPE=OSMSTDP         ,SK=1234567891   ;
+     HERPC:RSP =128   ,TDPTYPE=OSMSTDP         ,SK=1234567892   ;
+     HERPC:RSP =128   ,TDPTYPE=OSMSTDP         ,SK=1234567893   ;
+     HERPC:RSP =128   ,TDPTYPE=OSMSTDP         ,SK=1234567894   ;
+     HERPC:RSP =128   ,TDPTYPE=OSMSTDP         ,SK=1234567895   ;
+     HERPC:RSP =128   ,TDPTYPE=OSMSTDP         ,SK=1234567896   ;
+     HERPC:RSP =128   ,TDPTYPE=OSMSTDP         ,SK=1234567897   ;
+     HERPC:RSP =128   ,TDPTYPE=OSMSTDP         ,SK=1234567898   ;
+     HERPC:RSP =128   ,TDPTYPE=OSMSTDP         ,SK=1234567899   ;
+     HERPC:RSP =128   ,TDPTYPE=MMTDP           ,SK=1234567890   ;
+     HERPC:RSP =128   ,TDPTYPE=MMTDP           ,SK=1234567891   ;
+     HERPC:RSP =128   ,TDPTYPE=MMTDP           ,SK=1234567892   ;
+     HERPC:RSP =128   ,TDPTYPE=MMTDP           ,SK=1234567893   ;
+     HERPC:RSP =128   ,TDPTYPE=MMTDP           ,SK=1234567894   ;
+     HERPC:RSP =128   ,TDPTYPE=MMTDP           ,SK=1234567895   ;
+     HERPC:RSP =128   ,TDPTYPE=MMTDP           ,SK=1234567896   ;
+     HERPC:RSP =128   ,TDPTYPE=MMTDP           ,SK=1234567897   ;
+     HERPC:RSP =128   ,TDPTYPE=MMTDP           ,SK=1234567898   ;
+     HERPC:RSP =128   ,TDPTYPE=MMTDP           ,SK=1234567899   ;
+     HERPC:RSP =128   ,TDPTYPE=VTTDP           ,SK=1234567890   ;
+     HERPC:RSP =128   ,TDPTYPE=VTTDP           ,SK=1234567891   ;
+     HERPC:RSP =128   ,TDPTYPE=VTTDP           ,SK=1234567892   ;
+     HERPC:RSP =128   ,TDPTYPE=VTTDP           ,SK=1234567893   ;
+     HERPC:RSP =128   ,TDPTYPE=VTTDP           ,SK=1234567894   ;
+     HERPC:RSP =128   ,TDPTYPE=VTTDP           ,SK=1234567895   ;
+     HERPC:RSP =128   ,TDPTYPE=VTTDP           ,SK=1234567896   ;
+     HERPC:RSP =128   ,TDPTYPE=VTTDP           ,SK=1234567897   ;
+     HERPC:RSP =128   ,TDPTYPE=VTTDP           ,SK=1234567898   ;
+     HERPC:RSP =128   ,TDPTYPE=VTTDP           ,SK=1234567899   ;
+
+     HERPC:RSIP=61	  ,SUD=CAT-1                                ;
+     HERPC:RSIP=61	  ,SUD=STYPE-1                              ;
+     HERPC:RSIP=61	  ,SUD=ARD-1                                ;
+     HERPC:RSIP=61	  ,SUD=TICK-1                               ;
+     HERPC:RSIP=61	  ,SUD=BAOC-1                               ;
+     HERPC:RSIP=61	  ,SUD=BOIC-1                               ;
+     HERPC:RSIP=61	  ,SUD=BOIEXH-1                             ;
+     HERPC:RSIP=126	  ,SUD=CAT-5                                ;
+     HERPC:RSIP=126	  ,SUD=ARD-2                                ;
+
+     HERPC:RSIP=127	  ,SUD=CAT-2                                ;
+     HERPC:RSIP=127	  ,SUD=ARD-1                                ;

@@ -1,0 +1,23 @@
+IOTXP:-----------------------------------------;
+IOTXP: NETWORK GENERIC IMSI                    ;
+IOTXP:-----------------------------------------;
+
+FGGII:GIMSI=26217400000,NPREFIX=2604;
+FGGII:GIMSI=26217400001,NPREFIX=3692;
+FGGII:GIMSI=26217400002,NPREFIX=6116;     
+	                      
+IOTXP:END OF FILE;                     
+ 
+ 
+                                   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

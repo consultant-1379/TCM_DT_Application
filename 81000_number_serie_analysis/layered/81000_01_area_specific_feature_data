@@ -1,0 +1,8 @@
+
+	IOTXP:** HLR Layered Architecture, Area Specific Feature Data, Initiate *;
+
+	HESFI:SDAI=1	,PRIT=DNI-4						;
+	HESFI:SDAI=1	,PRIT=PFE-1						;
+	HESFI:SDAI=134					,PSS=MCA-10		;
+	HESFI:SDAI=135					,PSS=MCA-8		;
+

@@ -1,0 +1,49 @@
+IOTXP:-----------------------------------------;
+IOTXP:CAMEL PROFILES                           ;
+IOTXP:-----------------------------------------;
+
+IOTXP:-----------------------------------------;
+IOTXP:EXTENDED CAMEL DATA                      ;
+IOTXP:-----------------------------------------;
+
+IOTXP:-----------------------------------------------------------;
+IOTXP:PROFILES FROM 100 TO 109 ARE FOR AVERAGE CVE PROFILES      ;
+IOTXP:-----------------------------------------------------------;
+     
+     HECEC:CSP=100,SSLO=1;
+     HECEC:CSP=100,MCSO=1;
+     HECEC:CSP=100,MC2SO=1;
+     HECEC:CSP=100,MC3SO=1;
+     HECEC:CSP=100,MC4SO=1;
+     HECEC:CSP=100,OSMSSO=1;
+
+IOTXP:-----------------------------------------------------------;
+IOTXP:PROFILES FROM 110 TO 119 ARE FOR RICH CVE PROFILES         ;
+IOTXP:-----------------------------------------------------------;
+
+     HECEC:CSP=110,SSLO=1;
+     HECEC:CSP=110,MCSO=1;
+     HECEC:CSP=110,MC2SO=1;
+     HECEC:CSP=110,MC3SO=1;
+     HECEC:CSP=110,MC4SO=1;
+     HECEC:CSP=110,GPRSSO=1;
+     HECEC:CSP=110,OSMSSO=1;
+     HECEC:CSP=110,TSMSSO=1;
+     HECEC:CSP=110,TIF=1;
+
+IOTXP:-----------------------------------------;
+IOTXP:CAMEL TRIGGERING CRITERIA                ;
+IOTXP:-----------------------------------------;
+
+IOTXP:-----------------------------------------------------------;
+IOTXP:PROFILES FROM 100 TO 109 ARE FOR AVERAGE CVE PROFILES      ;
+IOTXP:-----------------------------------------------------------;
+
+IOTXP:-----------------------------------------------------------;
+IOTXP:PROFILES FROM 110 TO 119 ARE FOR RICH CVE PROFILES         ;
+IOTXP:-----------------------------------------------------------;
+
+     HECTI:CSP=110,OCTDP2,CCH=2,FTC=F,MTY=E,DNUM=3-1234,DLGH=12;
+	 HECTI:CSP=110,TCTDP12,CCH=3,BSG=BS30;
+
+IOTXP:END OF FILE;
